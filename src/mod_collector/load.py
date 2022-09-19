@@ -221,7 +221,7 @@ def transform(contenders_graph,measures_graph,comparator_graph):
     # #intermediate_messages_final["with_comparator_1"] = with_comparator_1
     # #intermediate_messages_final["title"] = title
     # #intermediate_messages_final["Measure Name"] = identifier_1
-    intermediate_messages_final["comparison value"] = comparison_value
+    intermediate_messages_final["comparison_value"] = comparison_value
     intermediate_messages_final["name"]=name
     intermediate_messages_final["comparison_id"]=comparison_id
     # #meaningful_messages_df["disposition"] = disposition
@@ -260,7 +260,7 @@ def transform(contenders_graph,measures_graph,comparator_graph):
             "psdo:PerformanceSummaryTextualEntity{Literal}",
             "slowmo:acceptable_by{URIRef}[0]",
             "slowmo:acceptable_by{URIRef}[1]",
-            "comparison value",
+            "comparison_value",
             "comparison_id",
             "name",
             "title",
@@ -269,7 +269,7 @@ def transform(contenders_graph,measures_graph,comparator_graph):
         ],
         axis=1,
     )
-    meaningful_messages_final.to_csv("final_list.csv")
+    #meaningful_messages_final.to_csv("final_list.csv")
     logging.critical("transforming--- %s seconds ---" % (time.time() - start_time))
     # return contender_messages_df
     return meaningful_messages_final

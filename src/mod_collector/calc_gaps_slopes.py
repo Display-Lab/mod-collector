@@ -30,10 +30,13 @@ def calc_goal_comparator_gap(comparison_values_df, performance_data):
     #comparison_values_df.rename(columns = {'index':'Measure_Name'}, inplace = True)
     
     final_df=pd.merge(comparison_values_df, latest_measure_df, on='Measure_Name', how='inner')
-    #final_df.to_csv("final_df.csv")
+    #print(final_df.dtypes)
+    final_df['comparison_value'] = final_df['comparison_value'].astype('double') 
+    #print(final_df.dtypes)
+    
     final_df['gap_size'] = final_df['comparison_value']- final_df['performance_data']
-    final_df['gapsize'] = final_df['gapsize'].abs()
-
+    final_df['gap_size'] = final_df['gap_size'].abs()
+    #final_df.to_csv("final_df.csv")
 
 #     lenb= len(latest_measure_df[['Passed_Count']])
 #     final_df1 = final_df[0:(lenb-1)]
@@ -54,4 +57,6 @@ def calc_goal_comparator_gap(comparison_values_df, performance_data):
 #    # final_df1 = final_df1.rename({'http://example.com/slowmo#WithComparator{BNode}[0]': 'goal_comparator_node', 'http://example.com/slowmo#WithComparator{BNode}[1]': 'social_comparator_node'}, axis=1)
 #     #final_df1.to_csv("final_df.csv")
     #print(latest_measure_df.head())
+    final_df = final_df.drop_duplicates('comparison_id', keep='first')
+    #final_df.to_csv("final_df.csv")
     return final_df

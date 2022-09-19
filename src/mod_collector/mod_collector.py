@@ -19,6 +19,7 @@ from SPARQLWrapper import XML, SPARQLWrapper
 # from .load_for_real import load
 from .load import  read, transform,read_contenders,read_measures,read_comparators
 from .calc_gaps_slopes import gap_calc
+from .insert import insert_gap
 
 # load()
 
@@ -39,4 +40,7 @@ comparator_graph = read_comparators(graph_read)
 # Transform dataframe to more meaningful dataframe
 comparison_values = transform(contenders_graph,measures_graph,comparator_graph)
 gap_size= gap_calc( performance_data_df, comparison_values)
+
+gap_graph =insert_gap(gap_size,graph_read)
+print(gap_graph.serialize(format='json-ld', indent=4))
 
