@@ -18,8 +18,8 @@ from SPARQLWrapper import XML, SPARQLWrapper
 
 # from .load_for_real import load
 from .load import  read, transform,read_contenders,read_measures,read_comparators
-from .calc_gaps_slopes import gap_calc,trend_calc
-from .insert import insert_gap,insert_trend
+from .calc_gaps_slopes import gap_calc,trend_calc,monotonic_pred
+from .insert import insert_gap,insert_trend ,insert_slope
 
 # load()
 
@@ -45,7 +45,8 @@ gap_graph =insert_gap(gap_size,graph_read)
 
 
 trend_slope=trend_calc(performance_data_df,comparison_values)
-trend_graph =insert_trend(trend_slope,gap_graph)
-
+slope_graph =insert_slope(trend_slope,gap_graph)
+monotonic_pred_df = monotonic_pred(performance_data_df,comparison_values)
+trend_graph = insert_trend(monotonic_pred_df,gap_graph)
 print(gap_graph.serialize(format='json-ld', indent=4))
 

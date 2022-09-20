@@ -25,7 +25,7 @@ def insert_gap(gap_df,graph_read):
         graph_read.add((b_node, p, o,))
     return graph_read
 
-def insert_trend(gap_df,graph_read):
+def insert_slope(gap_df,graph_read):
     
     for index ,row in gap_df.iterrows():
         node = row['RegardingMeasure']
@@ -33,4 +33,14 @@ def insert_trend(gap_df,graph_read):
         p = (URIRef("http://example.com/slowmo#PerformanceTrendSlope"))
         o = Literal(row['performance_trend_slope'])
         graph_read.add((b_node, p, o,))
+    return graph_read
+
+def insert_trend(gap_df,graph_read):
+    for index ,row in gap_df.iterrows():
+        node = row['id']
+        b_node = BNode(node)
+        p = (URIRef("http://purl.obolibrary.org/obo/RO_0000091"))
+        o =BNode()
+        graph_read.add((b_node, p, o,))
+    
     return graph_read

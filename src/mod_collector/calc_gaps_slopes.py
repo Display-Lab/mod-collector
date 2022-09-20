@@ -49,7 +49,6 @@ def theil_reg(df, xcol, ycol):
    return pd.Series(model)
 
 
-
 def calc_goal_comparator_gap(comparison_values_df, performance_data):
     performance_data['Month'] = pd.to_datetime(performance_data['Month'])
     idx= performance_data.groupby(['Measure_Name'])['Month'].transform(max) == performance_data['Month']
@@ -109,3 +108,58 @@ def calc_goal_comparator_gap(comparison_values_df, performance_data):
     #final_df = final_df.drop_duplicates('comparison_id', keep='first')
     #final_df.to_csv("final_df.csv")
     return final_df
+
+def monotonic_pred(performance_data_df,comparison_values_df):
+    performance_data_df['Month'] = pd.to_datetime(performance_data_df['Month'])
+    idx= performance_data_df.groupby(['Measure_Name'])['Month'].nlargest(3) .reset_index()
+    l=idx['level_1'].tolist()
+    latest_measure_df =  performance_data_df[performance_data_df.index.isin(l)]
+    latest_measure_df['performance_data'] = latest_measure_df['Passed_Count'] / latest_measure_df['Denominator']
+    latest_measure_df['performance_data']=latest_measure_df['performance_data'].fillna(0)
+    trend=[]
+    performance_data_month1 =[]
+    performance_data_month2=[]
+    performance_data_month3= []
+    trend_df=latest_measure_df.drop_duplicates(subset=['Measure_Name'])
+    row1=latest_measure_df.iloc[0]
+    Measure_Name =row1['Measure_Name']
+    #performance_data_month1.append(row1['performance_data'])
+    i=0
+    for rowIndex, row in latest_measure_df.iterrows():
+        if(row['Measure_Name']== Measure_Name and i==0):
+            performance_data_month1.append(row['performance_data'])
+            i=i+1
+        elif(row['Measure_Name']== Measure_Name and i==1):
+            performance_data_month2.append(row['performance_data'])
+            i=i+1
+        elif(row['Measure_Name']== Measure_Name and i ==2):
+            performance_data_month3.append( row['performance_data'])
+            i=0
+        if(row['Measure_Name']!=Measure_Name):
+            Measure_Name = row["Measure_Name"]
+            performance_data_month1.append(row['performance_data'])
+            i=i+1
+    trend_df['performance_data_month1']  = performance_data_month1
+    trend_df['performance_data_month2']  = performance_data_month2
+    trend_df['performance_data_month3']  = performance_data_month3
+    trend_df = trend_df[['Measure_Name','performance_data_month1','performance_data_month2','performance_data_month3']]
+    #lenb= len(trend_df[['Measure_Name']])
+    #comparison_values_df = comparison_values_df[0:(lenb-1)]
+    trend_df =pd.merge( comparison_values_df,trend_df , on='Measure_Name', how='outer')
+    for rowIndex, row in trend_df.iterrows():
+        m1= row['performance_data_month2']-row['performance_data_month1']
+        m2= row['performance_data_month3']-row['performance_data_month2']
+        if (m1==0 or m2==0):
+            trend.append("no trend")
+        elif(m1>0 and m2 <0)or(m1<0 and m2>0):
+            trend.append("non-monotonic")
+        elif(m1>0 and m2>0) or (m1<0 or m2<0):
+            trend.append("monotonic")
+    
+
+    trend_df['trend'] = trend
+
+    trend_df.to_csv("trend.csv")
+
+
+    return trend_df
