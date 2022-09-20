@@ -30,14 +30,14 @@ def read_contenders(graph_read):
     ?candidate obo:RO_0000091 ?o2 .
     ?o2 slowmo:RegardingComparator ?comparator .
     ?o2 slowmo:RegardingMeasure ?measure .
-    ?candidate slowmo:acceptable_by ?o3 .
+    
     } 
     WHERE {
     ?candidate ?p ?o .
     ?candidate obo:RO_0000091 ?o2 .
     ?o2 slowmo:RegardingComparator ?comparator .
     ?o2 slowmo:RegardingMeasure ?measure .
-    ?candidate slowmo:acceptable_by ?o3 .
+    
     }
     """
     )
@@ -260,6 +260,7 @@ def transform(contenders_graph,measures_graph,comparator_graph):
             "psdo:PerformanceSummaryTextualEntity{Literal}",
             "slowmo:acceptable_by{URIRef}[0]",
             "slowmo:acceptable_by{URIRef}[1]",
+            "RegardingMeasure",
             "comparison_value",
             "comparison_id",
             "name",
@@ -269,7 +270,7 @@ def transform(contenders_graph,measures_graph,comparator_graph):
         ],
         axis=1,
     )
-    #meaningful_messages_final.to_csv("final_list.csv")
+    meaningful_messages_final.to_csv("final_list.csv")
     logging.critical("transforming--- %s seconds ---" % (time.time() - start_time))
     # return contender_messages_df
     return meaningful_messages_final
