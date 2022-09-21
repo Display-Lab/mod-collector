@@ -42,5 +42,22 @@ def insert_trend(gap_df,graph_read):
         p = (URIRef("http://purl.obolibrary.org/obo/RO_0000091"))
         o =BNode()
         graph_read.add((b_node, p, o,))
+        s=o
+        p1 = RDF.type
+        if row['trend']== "no trend":
+            trend ="http://example.com/slowmo#NoTrend"
+        elif row['trend']== "monotonic":
+            trend ="http://example.com/slowmo#MonotonicTrend"
+        elif row['trend']== "non-monotonic":
+            trend ="http://example.com/slowmo#NonMonotonicTrend"
+        node1 = Literal(trend)
+        o1 = BNode(node1)
+        graph_read.add((s,p1,o1))
+        p2=(URIRef("http://example.com/slowmo#RegardingComparator"))
+        o2=Literal(row['comparison_id'])
+        graph_read.add((s,p2,o2))
+        p3=(URIRef("http://example.com/slowmo#RegardingMeasure"))
+        o3=Literal(row['RegardingMeasure'])
+        graph_read.add((s,p3,o3))
     
     return graph_read

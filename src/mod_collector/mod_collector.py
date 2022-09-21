@@ -48,5 +48,5 @@ trend_slope=trend_calc(performance_data_df,comparison_values)
 slope_graph =insert_slope(trend_slope,gap_graph)
 monotonic_pred_df = monotonic_pred(performance_data_df,comparison_values)
 trend_graph = insert_trend(monotonic_pred_df,gap_graph)
-print(gap_graph.serialize(format='json-ld', indent=4))
+print(trend_graph.serialize(format='json-ld', indent=4))
 
