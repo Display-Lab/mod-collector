@@ -54,10 +54,12 @@ def insert_trend(gap_df,graph_read):
         o1 = BNode(node1)
         graph_read.add((s,p1,o1))
         p2=(URIRef("http://example.com/slowmo#RegardingComparator"))
-        o2=Literal(row['comparison_id'])
+        node2=row['comparison_id']
+        o2=BNode(node2)
         graph_read.add((s,p2,o2))
         p3=(URIRef("http://example.com/slowmo#RegardingMeasure"))
-        o3=Literal(row['RegardingMeasure'])
+        node3=row['RegardingMeasure']
+        o3=BNode(node3)
         graph_read.add((s,p3,o3))
     
     return graph_read
