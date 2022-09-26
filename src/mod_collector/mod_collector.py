@@ -1,4 +1,4 @@
-from asyncore import read
+#from asyncore import read
 import json
 import sys
 import warnings

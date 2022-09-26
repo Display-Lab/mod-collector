@@ -16,7 +16,7 @@
             "http://purl.org/dc/terms/title": "PEERS",
             "name": "peers",
             "slowmo:ComparisonValue": {
-                "@value": "12.0E-1",
+                "@value": "9.3E-1",
                 "@type": "http://www.w3.org/2001/XMLSchema#double"
             }
         },
@@ -40,7 +40,7 @@
             "http://purl.org/dc/terms/title": "PEERS",
             "name": "peers",
             "slowmo:ComparisonValue": {
-                "@value": "13.0E-1",
+                "@value": "9.3E-1",
                 "@type": "http://www.w3.org/2001/XMLSchema#double"
             }
         },
@@ -54,7 +54,7 @@
             "http://purl.org/dc/terms/title": "GOAL",
             "name": "goal",
             "slowmo:ComparisonValue": {
-                "@value": "5.0E-1",
+                "@value": "9.0E-1",
                 "@type": "http://www.w3.org/2001/XMLSchema#double"
             }
         },
@@ -74,7 +74,7 @@
             "http://purl.org/dc/terms/title": "PEERS",
             "name": "peers",
             "slowmo:ComparisonValue": {
-                "@value": "14.0E-1",
+                "@value": "9.3E-1",
                 "@type": "http://www.w3.org/2001/XMLSchema#double"
             }
         },
@@ -142,7 +142,7 @@
             "http://purl.org/dc/terms/title": "GOAL",
             "name": "goal",
             "slowmo:ComparisonValue": {
-                "@value": "12.5E-1",
+                "@value": "9.0E-1",
                 "@type": "http://www.w3.org/2001/XMLSchema#double"
             }
         },
@@ -581,7 +581,7 @@
             "http://purl.org/dc/terms/title": "PEERS",
             "name": "peers",
             "slowmo:ComparisonValue": {
-                "@value": "9.3E-1",
+                "@value": "240.0E-1",
                 "@type": "http://www.w3.org/2001/XMLSchema#double"
             }
         },
@@ -4079,7 +4079,7 @@
             "http://purl.org/dc/terms/title": "GOAL",
             "name": "goal",
             "slowmo:ComparisonValue": {
-                "@value": "9.0E-1",
+                "@value": "12.0E-1",
                 "@type": "http://www.w3.org/2001/XMLSchema#double"
             }
         },
@@ -12446,7 +12446,7 @@
             "http://purl.org/dc/terms/title": "PEERS",
             "name": "peers",
             "slowmo:ComparisonValue": {
-                "@value": "9.3E-1",
+                "@value": "12.0E-1",
                 "@type": "http://www.w3.org/2001/XMLSchema#double"
             }
         },
