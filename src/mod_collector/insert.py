@@ -16,13 +16,16 @@ import numpy as np
 warnings.filterwarnings("ignore")
 
 def insert_gap(gap_df,graph_read):
-    
+    print(gap_df.dtypes)
     for index ,row in gap_df.iterrows():
-        node = row['comparison_id']
-        b_node = BNode(node)
-        p = (URIRef("http://example.com/slowmo#PerformanceGapSize"))
-        o = Literal(row['gap_size'])
-        graph_read.add((b_node, p, o,))
+        if row["performance_data"] != 0:
+            node = row['comparison_id']
+            b_node = BNode(node)
+            p = (URIRef("http://example.com/slowmo#PerformanceGapSize"))
+            o = Literal(row['gap_size'])
+            graph_read.add((b_node, p, o,))
+        # else:
+        #     print(row['gap_size'])
     return graph_read
 
 def insert_slope(gap_df,graph_read):
