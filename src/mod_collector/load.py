@@ -270,7 +270,7 @@ def transform(contenders_graph,measures_graph,comparator_graph):
         ],
         axis=1,
     )
-    meaningful_messages_final.to_csv("final_list.csv")
+    #meaningful_messages_final.to_csv("final_list.csv")
     logging.critical("transforming--- %s seconds ---" % (time.time() - start_time))
     # return contender_messages_df
     return meaningful_messages_final

@@ -19,7 +19,7 @@ def gap_calc( performance_data_df, comparison_values):
     comparison_values_df = comparison_values
     goal_gap_size_df = calc_goal_comparator_gap(comparison_values_df,performance_data_df)
     goal_gap_size_df['gap_size']=goal_gap_size_df['gap_size'].fillna(0)
-    goal_gap_size_df.to_csv("goal_gapsize.csv")
+    #goal_gap_size_df.to_csv("goal_gapsize.csv")
     return goal_gap_size_df
 def trend_calc(performance_data_df,comparison_values):
     performance_data_df['Month'] = pd.to_datetime(performance_data_df['Month'])
@@ -42,7 +42,7 @@ def trend_calc(performance_data_df,comparison_values):
     slope_final_df = slope_final_df[:(lenb-1)]
     slope_final_df=slope_final_df.drop_duplicates(subset=['RegardingMeasure'])
     slope_final_df['performance_trend_slope'] = slope_final_df['performance_trend_slope'].abs()
-    slope_final_df.to_csv("slope.csv")
+    #slope_final_df.to_csv("slope.csv")
     return slope_final_df
 
 def theil_reg(df, xcol, ycol):
@@ -160,7 +160,7 @@ def monotonic_pred(performance_data_df,comparison_values_df):
 
     trend_df['trend'] = trend
 
-    trend_df.to_csv("trend.csv")
+    #trend_df.to_csv("trend.csv")
 
 
     return trend_df

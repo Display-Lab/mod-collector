@@ -16,7 +16,7 @@ import numpy as np
 warnings.filterwarnings("ignore")
 
 def insert_gap(gap_df,graph_read):
-    print(gap_df.dtypes)
+    #print(gap_df.dtypes)
     for index ,row in gap_df.iterrows():
         if row["performance_data"] != 0:
             node = row['comparison_id']
