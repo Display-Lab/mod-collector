@@ -30,22 +30,33 @@ start_time = time.time()
 graph_read = read(sys.argv[1])
 performance_data_df = pd.read_csv(sys.argv[2])
 
+
 #indv_preferences_read_df = pd.read_json(sys.argv[2], lines=True)
 contenders_graph = read_contenders(graph_read)
+contender_messages_df = to_dataframe(contenders_graph)
+#contender_messages_df.to_csv("contenders.csv")
+
 measures_graph = read_measures(graph_read)
+measures_df = to_dataframe(measures_graph)
+#measures_df.to_csv("measures.csv")
 comparator_graph = read_comparators(graph_read)
+comparator_df = to_dataframe(comparator_graph)
+#comparator_df.to_csv("comparator.csv")
 # print(contenders_graph)
 # contenders_graph=graph_from_sparql_endpoint("http://localhost:3030/ds/sparql")
 # print(contenders_graph.serialize(format="ttl"))
 # Transform dataframe to more meaningful dataframe
 comparison_values = transform(contenders_graph,measures_graph,comparator_graph)
+#comparison_values.to_csv('comparison_values.csv')
 gap_size= gap_calc( performance_data_df, comparison_values)
-#gap_size.to_csv('gap_size.csv')
+# #gap_size.to_csv('gap_size.csv')
 gap_graph =insert_gap(gap_size,graph_read)
 
 
 trend_slope=trend_calc(performance_data_df,comparison_values)
 slope_graph =insert_slope(trend_slope,gap_graph)
+
+#comparison_values.to_csv('comparison_values.csv')
 monotonic_pred_df = monotonic_pred(performance_data_df,comparison_values)
 trend_graph = insert_trend(monotonic_pred_df,gap_graph)
 print(trend_graph.serialize(format='json-ld', indent=4))

@@ -111,6 +111,7 @@ def calc_goal_comparator_gap(comparison_values_df, performance_data):
     return final_df
 
 def monotonic_pred(performance_data_df,comparison_values_df):
+    
     performance_data_df['Month'] = pd.to_datetime(performance_data_df['Month'])
     idx= performance_data_df.groupby(['Measure_Name'])['Month'].nlargest(3) .reset_index()
     l=idx['level_1'].tolist()
@@ -144,9 +145,21 @@ def monotonic_pred(performance_data_df,comparison_values_df):
     trend_df['performance_data_month2']  = performance_data_month2
     trend_df['performance_data_month3']  = performance_data_month3
     trend_df = trend_df[['Measure_Name','performance_data_month1','performance_data_month2','performance_data_month3']]
-    #lenb= len(trend_df[['Measure_Name']])
-    #comparison_values_df = comparison_values_df[0:(lenb-1)]
-    trend_df =pd.merge( comparison_values_df,trend_df , on='Measure_Name', how='outer')
+    
+    
+    #trend_df.to_csv("trend.csv")
+    #comparison_values_df.to_csv("comparison_values1.csv")
+    #comparison_values_df=comparison_values_df[comparison_values_df['slowmo:acceptable_by{URIRef}[0]'].astype(bool)]
+    comparison_values_df["slowmo:acceptable_by{URIRef}[0]"].fillna(130, inplace = True)
+    comparison_values_df = comparison_values_df[comparison_values_df['slowmo:acceptable_by{URIRef}[0]']!= 130]
+    comparison_values_df=comparison_values_df.reset_index()
+    #comparison_values_df = comparison_values_df.iloc[: , 1:]
+    comparison_values_df.drop(columns=comparison_values_df.columns[0], axis=1, inplace=True)
+    comparison_values_df= comparison_values_df.drop_duplicates()
+    #comparison_values_df.to_csv("comparison_values3.csv")
+    trend_df =pd.merge( comparison_values_df,trend_df , on='Measure_Name', how='inner')
+    #trend_df.to_csv("trend.csv")
+   
     for rowIndex, row in trend_df.iterrows():
         m1= row['performance_data_month2']-row['performance_data_month1']
         m2= row['performance_data_month3']-row['performance_data_month2']
@@ -157,7 +170,8 @@ def monotonic_pred(performance_data_df,comparison_values_df):
         elif(m1>0 and m2>0) or (m1<0 or m2<0):
             trend.append("monotonic")
     
-
+    lenc= len(trend)
+    #print(lenc)
     trend_df['trend'] = trend
 
     #trend_df.to_csv("trend.csv")
