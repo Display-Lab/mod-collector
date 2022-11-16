@@ -15,10 +15,16 @@ from SPARQLWrapper import XML, SPARQLWrapper
 
 warnings.filterwarnings("ignore")
 
+def mod_collec(performance,comparison_values):
+    gap_size=gap_calc(performance,comparison_values)
+    
+
+
 def gap_calc( performance_data_df, comparison_values):
     comparison_values_df = comparison_values
     goal_gap_size_df = calc_goal_comparator_gap(comparison_values_df,performance_data_df)
     goal_gap_size_df['gap_size']=goal_gap_size_df['gap_size'].fillna(0)
+    #goal_gap_size_df.to_csv('gap_size.csv')
     return goal_gap_size_df
 
 def trend_calc(performance_data_df,comparison_values):
@@ -40,6 +46,7 @@ def trend_calc(performance_data_df,comparison_values):
     slope_final_df = slope_final_df[:(lenb-1)]
     slope_final_df=slope_final_df.drop_duplicates(subset=['RegardingMeasure'])
     slope_final_df['performance_trend_slope'] = slope_final_df['performance_trend_slope'].abs()
+    #slope_final_df.to_csv('gap_size.csv')
     return slope_final_df
 
 def theil_reg(df, xcol, ycol):
@@ -61,9 +68,10 @@ def calc_goal_comparator_gap(comparison_values_df, performance_data):
     latest_measure_df['performance_data']=performance_data
     final_df=pd.merge(comparison_values_df, latest_measure_df, on='Measure_Name', how='outer')
     final_df['comparison_value'] = final_df['comparison_value'].astype('double') 
-    final_df=final_df.drop_duplicates(subset=['comparison_id'])
+    #final_df=final_df.drop_duplicates(subset=['comparison_id'])
     final_df['gap_size'] = final_df['comparison_value']- final_df['performance_data']
     final_df['gap_size'] = final_df['gap_size'].abs()
+    #final_df.to_csv('final_df.csv')
     return final_df
 
 def monotonic_pred(performance_data_df,comparison_values_df):
@@ -116,4 +124,5 @@ def monotonic_pred(performance_data_df,comparison_values_df):
             trend.append("monotonic")
     lenc= len(trend)
     trend_df['trend'] = trend
+    trend_df.to_csv('trend_df.csv')
     return trend_df
