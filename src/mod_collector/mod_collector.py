@@ -18,7 +18,7 @@ from SPARQLWrapper import XML, SPARQLWrapper
 
 # from .load_for_real import load
 from .load import  read, transform,read_contenders,read_measures,read_comparators
-from .calc_gaps_slopes import gap_calc,trend_calc,monotonic_pred
+from .calc_gaps_slopes import gap_calc,trend_calc,monotonic_pred,mod_collector
 from .insert import insert_gap,insert_trend ,insert_slope
 
 # load()
@@ -47,22 +47,18 @@ comparator_df = to_dataframe(comparator_graph)
 # print(contenders_graph.serialize(format="ttl"))
 # Transform dataframe to more meaningful dataframe
 comparison_values = transform(contenders_graph,measures_graph,comparator_graph)
-comparison_values12=comparison_values[["comparison_value","Measure_Name"]]
-comparison_values12.to_csv('comparison_values12.csv')
-comparison_values.to_csv('comparison_values.csv')
-gap_size= gap_calc( performance_data_df, comparison_values12)
-gap_size1=gap_size[["Measure_Name","gap_size","performance_data"]]
-final_df1=pd.merge(comparison_values,gap_size1, on='Measure_Name', how='outer')
+comparison_values12=comparison_values[["comparison_value","name","Measure_Name"]]
+mod_df=mod_collector(performance_data_df, comparison_values12)
 
-#final_df1.to_csv('final_df1.csv')
-gap_graph =insert_gap(final_df1,graph_read)
+final_df = comparison_values.merge(mod_df, left_on=['Measure_Name','name'], right_on=['Measure_Name','name'] ,how='left')
+#final_df .to_csv("before_insert.csv")
+# gap_size= gap_calc( performance_data_df, comparison_values12)
+# trend_slope=trend_calc(performance_data_df,comparison_values12)
+# monotonic_pred_df = monotonic_pred(performance_data_df,comparison_values12)
 
 
-# trend_slope=trend_calc(performance_data_df,comparison_values)
-# slope_graph =insert_slope(trend_slope,gap_graph)
-
-#comparison_values.to_csv('comparison_values.csv')
-# monotonic_pred_df = monotonic_pred(performance_data_df,comparison_values)
-# trend_graph = insert_trend(monotonic_pred_df,gap_graph)
-#print(trend_graph.serialize(format='json-ld', indent=4))
+gap_graph =insert_gap(final_df,graph_read)
+slope_graph =insert_slope(final_df,gap_graph)
+trend_graph = insert_trend(final_df,gap_graph)
+print(trend_graph.serialize(format='json-ld', indent=4))
 

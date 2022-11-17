@@ -15,8 +15,15 @@ from SPARQLWrapper import XML, SPARQLWrapper
 
 warnings.filterwarnings("ignore")
 
-def mod_collec(performance,comparison_values):
-    gap_size=gap_calc(performance,comparison_values)
+def mod_collector(performance_data,comparison_values):
+    gap_size= gap_calc( performance_data, comparison_values)
+    trend_slope=trend_calc(performance_data,comparison_values)
+    monotonic_pred_df = monotonic_pred(performance_data,comparison_values)
+    mod_df=gap_size.merge(trend_slope,on='Measure_Name').merge(monotonic_pred_df,on='Measure_Name')
+    mod_df=mod_df.drop_duplicates()
+    #mod_df.to_csv("mod_df.csv")
+    return mod_df
+
     
 
 
@@ -24,6 +31,8 @@ def gap_calc( performance_data_df, comparison_values):
     comparison_values_df = comparison_values
     goal_gap_size_df = calc_goal_comparator_gap(comparison_values_df,performance_data_df)
     goal_gap_size_df['gap_size']=goal_gap_size_df['gap_size'].fillna(0)
+    goal_gap_size_df=goal_gap_size_df[["Measure_Name","name","gap_size","performance_data"]]
+    goal_gap_size_df=goal_gap_size_df.drop_duplicates()
     #goal_gap_size_df.to_csv('gap_size.csv')
     return goal_gap_size_df
 
@@ -35,7 +44,7 @@ def trend_calc(performance_data_df,comparison_values):
     latest_measure_df =  performance_data_df[performance_data_df.index.isin(l)]
     latest_measure_df['performance_data'] = latest_measure_df['Passed_Count'] / latest_measure_df['Denominator']
     latest_measure_df['performance_data']=latest_measure_df['performance_data'].fillna(0)
-    lenb= len( comparison_values[['RegardingMeasure']])
+    lenb= len( comparison_values[['Measure_Name']])
     out = latest_measure_df.groupby('Measure_Name').apply(theil_reg, xcol='Month', ycol='performance_data')
     df_1=out[0]
     df_1 = df_1.reset_index()
@@ -44,9 +53,10 @@ def trend_calc(performance_data_df,comparison_values):
     slope_df=slope_df.drop_duplicates(subset=['Measure_Name'])
     slope_final_df =pd.merge( comparison_values,slope_df , on='Measure_Name', how='outer')
     slope_final_df = slope_final_df[:(lenb-1)]
-    slope_final_df=slope_final_df.drop_duplicates(subset=['RegardingMeasure'])
+    slope_final_df=slope_final_df.drop_duplicates(subset=['Measure_Name'])
     slope_final_df['performance_trend_slope'] = slope_final_df['performance_trend_slope'].abs()
-    #slope_final_df.to_csv('gap_size.csv')
+    slope_final_df=slope_final_df[["Measure_Name","performance_trend_slope"]]
+    #slope_final_df.to_csv('slope.csv')
     return slope_final_df
 
 def theil_reg(df, xcol, ycol):
@@ -71,6 +81,7 @@ def calc_goal_comparator_gap(comparison_values_df, performance_data):
     #final_df=final_df.drop_duplicates(subset=['comparison_id'])
     final_df['gap_size'] = final_df['comparison_value']- final_df['performance_data']
     final_df['gap_size'] = final_df['gap_size'].abs()
+    
     #final_df.to_csv('final_df.csv')
     return final_df
 
@@ -107,10 +118,10 @@ def monotonic_pred(performance_data_df,comparison_values_df):
     trend_df['performance_data_month2']  = performance_data_month2
     trend_df['performance_data_month3']  = performance_data_month3
     trend_df = trend_df[['Measure_Name','performance_data_month1','performance_data_month2','performance_data_month3']]
-    comparison_values_df["slowmo:acceptable_by{URIRef}[0]"].fillna(130, inplace = True)
-    comparison_values_df = comparison_values_df[comparison_values_df['slowmo:acceptable_by{URIRef}[0]']!= 130]
-    comparison_values_df=comparison_values_df.reset_index()
-    comparison_values_df.drop(columns=comparison_values_df.columns[0], axis=1, inplace=True)
+    # comparison_values_df["slowmo:acceptable_by{URIRef}[0]"].fillna(130, inplace = True)
+    # comparison_values_df = comparison_values_df[comparison_values_df['slowmo:acceptable_by{URIRef}[0]']!= 130]
+    # comparison_values_df=comparison_values_df.reset_index()
+    # comparison_values_df.drop(columns=comparison_values_df.columns[0], axis=1, inplace=True)
     comparison_values_df= comparison_values_df.drop_duplicates()
     trend_df =pd.merge( comparison_values_df,trend_df , on='Measure_Name', how='inner')
     for rowIndex, row in trend_df.iterrows():
@@ -124,5 +135,6 @@ def monotonic_pred(performance_data_df,comparison_values_df):
             trend.append("monotonic")
     lenc= len(trend)
     trend_df['trend'] = trend
-    trend_df.to_csv('trend_df.csv')
+    trend_df=trend_df[["Measure_Name","trend"]]
+    #trend_df.to_csv('trend_df.csv')
     return trend_df

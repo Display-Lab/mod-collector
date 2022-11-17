@@ -1,673 +1,145 @@
-,id,slowmo:AncestorPerformer{Literal},slowmo:AncestorTemplate{Literal},disposition,reference_values,rdf:type{URIRef},psdo:PerformanceSummaryDisplay{Literal},psdo:PerformanceSummaryTextualEntity{Literal},slowmo:acceptable_by{URIRef}[0],slowmo:acceptable_by{URIRef}[1],RegardingMeasure,comparison_value,comparison_id,name,title,Measure_Name
-4,b1008,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b1009,obo:cpo_0000053,"line,bar,none",15,,,b4,0.93,b3,peers,"Protective Tidal Volume, 10 mL/kg PBW",PUL01
-14,b1023,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b1024,obo:cpo_0000053,"line,bar,none",5,,,b428,0.93,b427,peers,Acute Kidney Injury,AKI01
-24,b1047,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b1048,obo:cpo_0000053,"line,bar,none",4,,,b4,0.93,b3,peers,"Protective Tidal Volume, 10 mL/kg PBW",PUL01
-32,b1057,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b1058,obo:cpo_0000053,"line,bar,none",15,http://feedbacktailor.org/ftkb#Worsening,,b204,0.93,b203,peers,Minimizing Colloid Use (Cardiac),FLUID01C
-38,b1066,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1067,obo:cpo_0000053,"line,bar,none",11,,,b268,0.93,b1884,peers,Low MAP Prevention < 55,BP01
-66,b1120,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1123,obo:cpo_0000053,"line,bar,none",14,http://feedbacktailor.org/ftkb#Worsening,,b115,0.93,b114,peers,Reversal Administered,NMB02
-74,b1135,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b1136,obo:cpo_0000053,"line,bar,none",4,,,b149,0.9,b148,goal,PONV Prophylaxis: Pediatrics,PONV04
-80,b1142,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b1144,obo:cpo_0000053,"line,bar,none",15,,,b787,0.9,b786,goal,Postoperative Transfer of Care to ICU,TOC03
-84,b1153,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1154,obo:cpo_0000053,"line,bar,none",1,,,b7,0.05,b6,goal,Myocardial Infarction,CARD02
-94,b1169,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1080,obo:cpo_0000053,"line,bar,none",1,,,b456,0.1,b458,goal,Overtransfusion,TRAN02
-99,b1178,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1182,obo:cpo_0000053,"line,bar,none",11,,,b244,0.93,b799,peers,Intraoperative Transfer of Care,TOC01
-101,b1185,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1186,obo:cpo_0000053,"line,bar,none",2,,,b115,0.93,b114,peers,Reversal Administered,NMB02
-111,b12,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b14,obo:cpo_0000053,"line,bar,none",5,,,b39,0.9,b55,goal,Avoiding Monitoring Gaps,BP02
-112,b1200,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1202,obo:cpo_0000053,"line,bar.none",6,http://feedbacktailor.org/ftkb#GoalBetter,,b115,0.9,b332,goal,Reversal Administered,NMB02
-117,b1211,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b1212,obo:cpo_0000053,"line,bar,none",5,,,b115,0.9,b332,goal,Reversal Administered,NMB02
-122,b1220,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1221,obo:cpo_0000053,"line,bar,none",11,,,b11,0.93,b88,peers,Low Fresh Gas Flow,SUS01
-131,b1239,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1243,obo:cpo_0000053,"line,bar,none",2,,,b456,0.93,b457,peers,Overtransfusion,TRAN02
-134,b125,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b131,obo:cpo_0000053,"line,bar,none",14,,,b915,0.93,b1770,peers,"High Glucose Treated, Periop",GLU03
-143,b1272,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1273,obo:cpo_0000053,"line,bar,none",14,http://feedbacktailor.org/ftkb#Worsening,,b115,0.9,b332,goal,Reversal Administered,NMB02
-156,b1294,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1001,obo:cpo_0000053,"line,bar,none",1,http://feedbacktailor.org/ftkb#SocialBetter,,b4,0.93,b3,peers,"Protective Tidal Volume, 10 mL/kg PBW",PUL01
-164,b1307,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b1308,obo:cpo_0000053,"line,bar,none",4,,,b158,0.93,b157,peers,30 Day Post-Op In-Hospital Mortality Rate,MORT01
-171,b1316,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1317,obo:cpo_0000053,"line,bar,none",11,,,b207,0.93,b206,peers,PONV Prophylaxis: Adults,PONV05
-173,b132,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b133,obo:cpo_0000053,"line,bar,none",15,http://feedbacktailor.org/ftkb#Worsening,,b422,0.93,b421,peers,"Protective Tidal Volume, 8 mL/kg PBW",PUL02
-178,b1325,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1328,obo:cpo_0000053,"line,bar,none",11,,,b915,0.93,b1770,peers,"High Glucose Treated, Periop",GLU03
-182,b1337,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1339,obo:cpo_0000053,"line,bar,none",14,,,b1041,0.93,b1232,peers,Hypothermia in Cesarean Deliveries,TEMP05
-185,b1343,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1346,obo:cpo_0000053,"line,bar,none",2,,,b1041,0.93,b1232,peers,Hypothermia in Cesarean Deliveries,TEMP05
-195,b1360,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b1364,obo:cpo_0000053,"line,bar,none",5,,,b456,0.1,b458,goal,Overtransfusion,TRAN02
-198,b1368,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1369,obo:cpo_0000053,"line,bar,none",1,,,b155,0.93,b154,peers,"Multimodal Analgesia, Pediatrics",PAIN01
-210,b1396,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1397,obo:cpo_0000053,"line,bar,none",1,,,b66,0.9,b65,goal,PONV Prophylaxis: Adults (Old),PONV01
-216,b1405,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1408,obo:cpo_0000053,"line,bar,none",2,,,b1110,0.93,b3911,peers,"Low Glucose Treated, Intraop",GLU02
-218,b141,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b143,obo:cpo_0000053,"line,bar,none",15,,,b1194,0.93,b1634,peers,Postoperative Transfer of Care to PACU,TOC02
-220,b1411,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1413,obo:cpo_0000053,"line,bar,none",2,,,b190,0.93,b287,peers,Low MAP Prevention < 55,BP01
-226,b1425,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1426,obo:cpo_0000053,"line,bar,none",14,http://feedbacktailor.org/ftkb#Worsening,,b428,0.1,b762,goal,Acute Kidney Injury,AKI01
-235,b1449,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b1451,obo:cpo_0000053,"line,bar,none",15,http://feedbacktailor.org/ftkb#Worsening,,b149,0.93,b487,peers,PONV Prophylaxis: Pediatrics,PONV04
-251,b1480,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1483,obo:cpo_0000053,"line,bar,none",1,,,b62,0.9,b86,goal,PONV Prophylaxis (Old): Pediatrics,PONV02
-257,b1493,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1495,obo:cpo_0000053,"line,bar.none",6,,,b436,0.93,b732,peers,Antibiotic Timing for Cesarean Delivery,ABX01
-273,b1522,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1525,obo:cpo_0000053,"line,bar,none",2,,,b915,0.93,b1770,peers,"High Glucose Treated, Periop",GLU03
-282,b1542,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b1543,obo:cpo_0000053,"line,bar,none",15,,,b39,0.93,b38,peers,Avoiding Monitoring Gaps,BP02
-287,b1549,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b1173,obo:cpo_0000053,"line,bar,none",15,http://feedbacktailor.org/ftkb#Worsening,,b121,0.93,b120,peers,Thermoregulation Vigilance - Active Warming,TEMP01
-296,b1566,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1570,obo:cpo_0000053,"line,bar,none",14,http://feedbacktailor.org/ftkb#Worsening,,b33,0.93,b635,peers,Train of Four Taken,NMB01
-302,b1586,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b1588,obo:cpo_0000053,"line,bar,none",15,,,b248,0.1,b165,goal,Postoperative Nausea or Vomiting Outcome,PONV03
-308,b1599,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b1555,obo:cpo_0000053,"line,bar,none",15,,,b277,0.93,b276,peers,Thermoregulation Monitoring - Core Temperature,TEMP02
-322,b1622,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1092,obo:cpo_0000053,"line,bar,none",2,http://feedbacktailor.org/ftkb#SocialWorse,,b169,0.93,b168,peers,Multimodal Analgesia,PAIN02
-325,b1627,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1517,obo:cpo_0000053,"line,bar.none",6,,,b181,0.93,b180,peers,Perioperative Hypothermia,TEMP03
-328,b1635,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b1177,obo:cpo_0000053,"line,bar,none",15,,,b169,0.93,b168,peers,Multimodal Analgesia,PAIN02
-333,b1641,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b1644,obo:cpo_0000053,"line,bar,none",15,,,b54,0.9,b53,goal,Pediatric Temperature Management,TEMP04
-339,b1651,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1652,obo:cpo_0000053,"line,bar,none",11,,,b181,0.93,b180,peers,Perioperative Hypothermia,TEMP03
-346,b1666,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b1671,obo:cpo_0000053,"line,bar,none",5,,,b736,0.9,b745,goal,Escalated High Glucose Treated,GLU05
-353,b1688,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b1689,obo:cpo_0000053,"line,bar,none",15,,,b54,0.93,b110,peers,Pediatric Temperature Management,TEMP04
-361,b170,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b173,obo:cpo_0000053,"line,bar,none",15,,,b268,0.93,b1884,peers,Low MAP Prevention < 55,BP01
-367,b1712,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b1312,obo:cpo_0000053,"line,bar,none",15,http://feedbacktailor.org/ftkb#Worsening,,b121,0.9,b262,goal,Thermoregulation Vigilance - Active Warming,TEMP01
-369,b1715,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1719,obo:cpo_0000053,"line,bar.none",6,,,b104,0.1,b411,goal,Acute Kidney Injury,AKI01
-371,b1721,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1515,obo:cpo_0000053,"line,bar.none",6,http://feedbacktailor.org/ftkb#GoalBetter,,b248,0.1,b165,goal,Postoperative Nausea or Vomiting Outcome,PONV03
-378,b1731,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1733,obo:cpo_0000053,"line,bar.none",6,,,b190,0.93,b287,peers,Low MAP Prevention < 55,BP01
-387,b1748,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b1750,obo:cpo_0000053,"line,bar,none",15,,,b268,0.9,b267,goal,Low MAP Prevention < 55,BP01
-395,b1761,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1762,obo:cpo_0000053,"line,bar,none",2,,,b2151,0.93,b2152,peers,General Anesthesia During Cesarean Deliveries,GA01
-400,b1774,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b1540,obo:cpo_0000053,"line,bar,none",4,,,b277,0.93,b276,peers,Thermoregulation Monitoring - Core Temperature,TEMP02
-405,b1783,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1159,obo:cpo_0000053,"line,bar,none",11,,,b62,0.9,b86,goal,PONV Prophylaxis (Old): Pediatrics,PONV02
-409,b1794,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1795,obo:cpo_0000053,"line,bar,none",14,http://feedbacktailor.org/ftkb#Worsening,,b62,0.9,b86,goal,PONV Prophylaxis (Old): Pediatrics,PONV02
-421,b1815,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b1819,obo:cpo_0000053,"line,bar,none",5,,,b299,0.9,b685,goal,"Low Glucose Treated, Periop",GLU04
-423,b182,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b184,obo:cpo_0000053,"line,bar,none",2,,,b915,0.9,b914,goal,"High Glucose Treated, Periop",GLU03
-428,b1827,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b802,obo:cpo_0000053,"line,bar,none",5,,,b104,0.93,b103,peers,Acute Kidney Injury,AKI01
-429,b1835,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1447,obo:cpo_0000053,"line,bar,none",14,,,b277,0.93,b276,peers,Thermoregulation Monitoring - Core Temperature,TEMP02
-436,b1846,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1710,obo:cpo_0000053,"line,bar.none",6,,,b296,0.9,b1527,goal,"High Glucose Treated, Intraop",GLU01
-437,b1854,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1858,obo:cpo_0000053,"line,bar,none",14,,,b50,0.93,b49,peers,SBP < 90 in Cesarean Deliveries,BP04
-439,b1863,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1865,obo:cpo_0000053,"line,bar.none",6,,,b121,0.93,b120,peers,Thermoregulation Vigilance - Active Warming,TEMP01
-444,b1873,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1879,obo:cpo_0000053,"line,bar.none",6,,,b268,0.93,b1884,peers,Low MAP Prevention < 55,BP01
-459,b1905,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1909,obo:cpo_0000053,"line,bar,none",11,,,b1972,0.93,b2026,peers,Hypothermia Avoidance in Cardiac Surgery,TEMP06
-463,b1915,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1916,obo:cpo_0000053,"line,bar,none",11,,,b277,0.9,b495,goal,Thermoregulation Monitoring - Core Temperature,TEMP02
-469,b1926,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1928,obo:cpo_0000053,"line,bar,none",1,,,b422,0.9,b796,goal,"Protective Tidal Volume, 8 mL/kg PBW",PUL02
-471,b193,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b197,obo:cpo_0000053,"line,bar,none",5,,,b915,0.9,b914,goal,"High Glucose Treated, Periop",GLU03
-478,b1943,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1020,obo:cpo_0000053,"line,bar,none",1,,,b169,0.93,b168,peers,Multimodal Analgesia,PAIN02
-485,b1959,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1961,obo:cpo_0000053,"line,bar,none",11,,,b66,0.93,b178,peers,PONV Prophylaxis: Adults (Old),PONV01
-498,b1987,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1402,obo:cpo_0000053,"line,bar,none",2,,,b4,0.93,b3,peers,"Protective Tidal Volume, 10 mL/kg PBW",PUL01
-506,b1998,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1683,obo:cpo_0000053,"line,bar,none",11,,,b50,0.93,b49,peers,SBP < 90 in Cesarean Deliveries,BP04
-512,b2008,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b2012,obo:cpo_0000053,"line,bar,none",4,,,b739,0.93,b740,peers,Minimizing Colloid Use (Non-Cardiac),FLUID01NC
-525,b2030,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b1502,obo:cpo_0000053,"line,bar,none",5,,,b4,0.9,b161,goal,"Protective Tidal Volume, 10 mL/kg PBW",PUL01
-533,b2043,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b188,obo:cpo_0000053,"line,bar,none",2,,,b190,0.9,b189,goal,Low MAP Prevention < 55,BP01
-539,b2053,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1437,obo:cpo_0000053,"line,bar,none",1,,,b4,0.9,b161,goal,"Protective Tidal Volume, 10 mL/kg PBW",PUL01
-546,b2066,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b187,obo:cpo_0000053,"line,bar,none",2,,,b54,0.9,b53,goal,Pediatric Temperature Management,TEMP04
-551,b2075,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b2048,obo:cpo_0000053,"line,bar,none",2,,,b66,0.9,b65,goal,PONV Prophylaxis: Adults (Old),PONV01
-557,b2089,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1174,obo:cpo_0000053,"line,bar,none",11,,,b121,0.9,b262,goal,Thermoregulation Vigilance - Active Warming,TEMP01
-565,b2102,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b2106,obo:cpo_0000053,"line,bar,none",5,,,b915,0.93,b1770,peers,"High Glucose Treated, Periop",GLU03
-573,b212,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b202,obo:cpo_0000053,"line,bar,none",5,,,b204,0.93,b203,peers,Minimizing Colloid Use (Cardiac),FLUID01C
-575,b2122,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b958,obo:cpo_0000053,"line,bar,none",14,,,b456,0.93,b457,peers,Overtransfusion,TRAN02
-576,b2127,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b2128,obo:cpo_0000053,"line,bar,none",11,,,b531,0.93,b530,peers,"Myocardial Infarction, High Risk Patients",CARD03
-587,b2153,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b2156,obo:cpo_0000053,"line,bar,none",1,,,b107,0.9,b106,goal,Transfusion Management Vigilance,TRAN01
-589,b2157,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b413,obo:cpo_0000053,"line,bar.none",6,,,b107,0.93,b405,peers,Transfusion Management Vigilance,TRAN01
-605,b2186,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b2177,obo:cpo_0000053,"line,bar,none",14,,,b531,0.93,b530,peers,"Myocardial Infarction, High Risk Patients",CARD03
-610,b2197,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b2198,obo:cpo_0000053,"line,bar,none",11,,,b1194,0.9,b1193,goal,Postoperative Transfer of Care to PACU,TOC02
-612,b22,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b24,obo:cpo_0000053,"line,bar,none",15,,,b296,0.9,b1527,goal,"High Glucose Treated, Intraop",GLU01
-624,b2234,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b2237,obo:cpo_0000053,"line,bar,none",11,,,b104,0.93,b103,peers,Acute Kidney Injury,AKI01
-627,b224,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b230,obo:cpo_0000053,"line,bar,none",5,,,b1110,0.93,b3911,peers,"Low Glucose Treated, Intraop",GLU02
-628,b2240,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b2241,obo:cpo_0000053,"line,bar,none",5,,,b248,0.1,b165,goal,Postoperative Nausea or Vomiting Outcome,PONV03
-634,b2255,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1006,obo:cpo_0000053,"line,bar.none",6,,,b158,0.93,b157,peers,30 Day Post-Op In-Hospital Mortality Rate,MORT01
-635,b2263,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b2265,obo:cpo_0000053,"line,bar,none",11,,,b320,0.93,b319,peers,Low Map Prevention < 65,BP03
-641,b2273,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b2214,obo:cpo_0000053,"line,bar,none",11,,,b436,0.93,b732,peers,Antibiotic Timing for Cesarean Delivery,ABX01
-643,b2285,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b2286,obo:cpo_0000053,"line,bar.none",6,,,b7,0.93,b454,peers,Myocardial Infarction,CARD02
-647,b2295,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b2170,obo:cpo_0000053,"line,bar,none",11,,,b33,0.93,b635,peers,Train of Four Taken,NMB01
-654,b2305,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b2307,obo:cpo_0000053,"line,bar.none",6,,,b66,0.93,b178,peers,PONV Prophylaxis: Adults (Old),PONV01
-661,b2318,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b2323,obo:cpo_0000053,"line,bar.none",6,,,b268,0.9,b267,goal,Low MAP Prevention < 55,BP01
-662,b232,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b233,obo:cpo_0000053,"line,bar,none",4,,,b320,0.93,b319,peers,Low Map Prevention < 65,BP03
-664,b2324,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b2326,obo:cpo_0000053,"line,bar,none",4,,,b204,0.93,b203,peers,Minimizing Colloid Use (Cardiac),FLUID01C
-672,b2336,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b2006,obo:cpo_0000053,"line,bar,none",15,,,b190,0.9,b189,goal,Low MAP Prevention < 55,BP01
-682,b2349,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b1520,obo:cpo_0000053,"line,bar,none",5,,,b207,0.9,b698,goal,PONV Prophylaxis: Adults,PONV05
-684,b2353,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b2354,obo:cpo_0000053,"line,bar,none",15,,,b296,0.93,b295,peers,"High Glucose Treated, Intraop",GLU01
-690,b2368,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b2369,obo:cpo_0000053,"line,bar,none",15,,,b320,0.9,b527,goal,Low Map Prevention < 65,BP03
-699,b2379,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b2025,obo:cpo_0000053,"line,bar,none",14,,,b1972,0.93,b2026,peers,Hypothermia Avoidance in Cardiac Surgery,TEMP06
-703,b2388,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b242,obo:cpo_0000053,"line,bar,none",1,,,b244,0.9,b243,goal,Intraoperative Transfer of Care,TOC01
-705,b2393,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b1266,obo:cpo_0000053,"line,bar,none",5,http://feedbacktailor.org/ftkb#SocialBetter,,b7,0.93,b454,peers,Myocardial Infarction,CARD02
-710,b2402,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b1969,obo:cpo_0000053,"line,bar,none",4,,,b320,0.9,b527,goal,Low Map Prevention < 65,BP03
-714,b2407,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1287,obo:cpo_0000053,"line,bar,none",1,,,b589,,b588,peers,General anesthesia after neuraxial in Cesarean Deliveries,GA02
-718,b2418,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b2421,obo:cpo_0000053,"line,bar.none",6,,,b1972,0.1,b1971,goal,Hypothermia Avoidance in Cardiac Surgery,TEMP06
-724,b2428,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b2429,obo:cpo_0000053,"line,bar,none",15,,,b50,0.9,b984,goal,SBP < 90 in Cesarean Deliveries,BP04
-735,b2451,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b2452,obo:cpo_0000053,"line,bar,none",5,http://feedbacktailor.org/ftkb#SocialBetter,,b39,0.93,b38,peers,Avoiding Monitoring Gaps,BP02
-744,b2468,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b2473,obo:cpo_0000053,"line,bar,none",5,,,b2151,0.93,b2152,peers,General Anesthesia During Cesarean Deliveries,GA01
-749,b2481,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b2484,obo:cpo_0000053,"line,bar.none",6,,,b1041,0.93,b1232,peers,Hypothermia in Cesarean Deliveries,TEMP05
-756,b2498,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b2096,obo:cpo_0000053,"line,bar,none",2,,,b11,0.9,b10,goal,Low Fresh Gas Flow,SUS01
-759,b2502,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1005,obo:cpo_0000053,"line,bar.none",6,http://feedbacktailor.org/ftkb#GoalBetter,,b7,0.05,b6,goal,Myocardial Infarction,CARD02
-761,b2512,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b2513,obo:cpo_0000053,"line,bar,none",11,,,b211,0.93,b504,peers,Avoiding Medication Overdose,MED01
-766,b2521,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b2524,obo:cpo_0000053,"line,bar.none",6,,,b787,0.93,b789,peers,Postoperative Transfer of Care to ICU,TOC03
-771,b253,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b255,obo:cpo_0000053,"line,bar.none",6,,,b1194,0.9,b1193,goal,Postoperative Transfer of Care to PACU,TOC02
-773,b2532,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b2537,obo:cpo_0000053,"line,bar,none",11,,,b7,0.05,b6,goal,Myocardial Infarction,CARD02
-778,b2541,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b2542,obo:cpo_0000053,"line,bar,none",14,,,b7,0.05,b6,goal,Myocardial Infarction,CARD02
-783,b2550,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b1367,obo:cpo_0000053,"line,bar,none",5,,,b436,0.9,b435,goal,Antibiotic Timing for Cesarean Delivery,ABX01
-786,b2561,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b2562,obo:cpo_0000053,"line,bar,none",4,,,b268,0.93,b1884,peers,Low MAP Prevention < 55,BP01
-789,b2568,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b2570,obo:cpo_0000053,"line,bar.none",6,,,b1110,0.9,b1109,goal,"Low Glucose Treated, Intraop",GLU02
-795,b2578,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1285,obo:cpo_0000053,"line,bar,none",11,,,b1041,0.93,b1232,peers,Hypothermia in Cesarean Deliveries,TEMP05
-796,b2583,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b2587,obo:cpo_0000053,"line,bar,none",4,,,b115,0.93,b114,peers,Reversal Administered,NMB02
-810,b2605,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1978,obo:cpo_0000053,"line,bar,none",2,,,b277,0.9,b495,goal,Thermoregulation Monitoring - Core Temperature,TEMP02
-818,b2617,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1253,obo:cpo_0000053,"line,bar,none",11,,,b66,0.9,b65,goal,PONV Prophylaxis: Adults (Old),PONV01
-821,b2623,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b2624,obo:cpo_0000053,"line,bar,none",1,,,b787,0.9,b786,goal,Postoperative Transfer of Care to ICU,TOC03
-828,b2637,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b2640,obo:cpo_0000053,"line,bar,none",2,,,b1972,0.93,b2026,peers,Hypothermia Avoidance in Cardiac Surgery,TEMP06
-831,b2641,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b983,obo:cpo_0000053,"line,bar,none",11,,,b50,0.9,b984,goal,SBP < 90 in Cesarean Deliveries,BP04
-833,b2647,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b2648,obo:cpo_0000053,"line,bar,none",11,,,b181,0.1,b393,goal,Perioperative Hypothermia,TEMP03
-837,b2653,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b2654,obo:cpo_0000053,"line,bar,none",1,,,b204,0.93,b203,peers,Minimizing Colloid Use (Cardiac),FLUID01C
-845,b2663,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b2666,obo:cpo_0000053,"line,bar,none",4,,,b1194,0.93,b1634,peers,Postoperative Transfer of Care to PACU,TOC02
-848,b2669,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b1956,obo:cpo_0000053,"line,bar,none",15,,,b181,0.1,b393,goal,Perioperative Hypothermia,TEMP03
-851,b2674,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1985,obo:cpo_0000053,"line,bar,none",2,,,b62,0.9,b86,goal,PONV Prophylaxis (Old): Pediatrics,PONV02
-854,b2683,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b2686,obo:cpo_0000053,"line,bar,none",4,,,b787,0.9,b786,goal,Postoperative Transfer of Care to ICU,TOC03
-858,b2690,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b2691,obo:cpo_0000053,"line,bar,none",2,,,b1972,0.1,b1971,goal,Hypothermia Avoidance in Cardiac Surgery,TEMP06
-860,b2694,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b2696,obo:cpo_0000053,"line,bar,none",14,,,b107,0.93,b405,peers,Transfusion Management Vigilance,TRAN01
-863,b2701,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b2705,obo:cpo_0000053,"line,bar,none",5,,,b1194,0.93,b1634,peers,Postoperative Transfer of Care to PACU,TOC02
-868,b2711,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b1197,obo:cpo_0000053,"line,bar,none",5,,,b59,0.1,b58,goal,Postoperative Nausea or Vomiting Outcome,PONV03b
-873,b2722,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1018,obo:cpo_0000053,"line,bar,none",1,,,b59,0.1,b58,goal,Postoperative Nausea or Vomiting Outcome,PONV03b
-877,b2728,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b2731,obo:cpo_0000053,"line,bar.none",6,http://feedbacktailor.org/ftkb#GoalBetter,http://feedbacktailor.org/ftkb#GoalGain,b4,0.9,b161,goal,"Protective Tidal Volume, 10 mL/kg PBW",PUL01
-883,b2738,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1258,obo:cpo_0000053,"line,bar,none",14,,,b739,0.93,b740,peers,Minimizing Colloid Use (Non-Cardiac),FLUID01NC
-890,b2750,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b1105,obo:cpo_0000053,"line,bar,none",15,http://feedbacktailor.org/ftkb#Worsening,,b33,0.9,b32,goal,Train of Four Taken,NMB01
-896,b2758,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b1459,obo:cpo_0000053,"line,bar,none",5,,,b121,0.9,b262,goal,Thermoregulation Vigilance - Active Warming,TEMP01
-901,b2769,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b2531,obo:cpo_0000053,"line,bar,none",11,,,b428,0.1,b762,goal,Acute Kidney Injury,AKI01
-912,b2793,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b2794,obo:cpo_0000053,"line,bar,none",2,http://feedbacktailor.org/ftkb#SocialWorse,,b428,0.93,b427,peers,Acute Kidney Injury,AKI01
-918,b2801,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1389,obo:cpo_0000053,"line,bar,none",14,,,b4,0.9,b161,goal,"Protective Tidal Volume, 10 mL/kg PBW",PUL01
-922,b281,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b156,obo:cpo_0000053,"line,bar,none",11,,,b158,0.93,b157,peers,30 Day Post-Op In-Hospital Mortality Rate,MORT01
-924,b2811,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b2813,obo:cpo_0000053,"line,bar,none",1,,,b244,0.93,b799,peers,Intraoperative Transfer of Care,TOC01
-927,b2818,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b2819,obo:cpo_0000053,"line,bar,none",1,,,b115,0.9,b332,goal,Reversal Administered,NMB02
-931,b2824,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b2827,obo:cpo_0000053,"line,bar,none",5,,,b1041,0.1,b1040,goal,Hypothermia in Cesarean Deliveries,TEMP05
-933,b2830,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b1521,obo:cpo_0000053,"line,bar,none",15,,,b207,0.9,b698,goal,PONV Prophylaxis: Adults,PONV05
-936,b2839,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b2020,obo:cpo_0000053,"line,bar,none",1,,,b104,0.93,b103,peers,Acute Kidney Injury,AKI01
-941,b2850,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b2851,obo:cpo_0000053,"line,bar,none",4,,,b104,0.1,b411,goal,Acute Kidney Injury,AKI01
-944,b2857,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b2859,obo:cpo_0000053,"line,bar,none",5,,,b589,,b588,peers,General anesthesia after neuraxial in Cesarean Deliveries,GA02
-949,b2866,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1392,obo:cpo_0000053,"line,bar,none",14,,,b59,0.93,b175,peers,Postoperative Nausea or Vomiting Outcome,PONV03b
-958,b2885,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b2889,obo:cpo_0000053,"line,bar.none",6,,,b1041,0.1,b1040,goal,Hypothermia in Cesarean Deliveries,TEMP05
-965,b2898,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b1078,obo:cpo_0000053,"line,bar,none",5,,,b428,0.1,b762,goal,Acute Kidney Injury,AKI01
-972,b2911,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1264,obo:cpo_0000053,"line,bar,none",14,,,b190,0.9,b189,goal,Low MAP Prevention < 55,BP01
-974,b2915,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b2916,obo:cpo_0000053,"line,bar,none",4,,,b211,0.93,b504,peers,Avoiding Medication Overdose,MED01
-978,b2925,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b2926,obo:cpo_0000053,"line,bar,none",4,,,b207,0.9,b698,goal,PONV Prophylaxis: Adults,PONV05
-985,b2939,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b2940,obo:cpo_0000053,"line,bar,none",5,,,b422,0.93,b421,peers,"Protective Tidal Volume, 8 mL/kg PBW",PUL02
-991,b2948,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b2194,obo:cpo_0000053,"line,bar,none",14,,,b207,0.9,b698,goal,PONV Prophylaxis: Adults,PONV05
-996,b2956,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1219,obo:cpo_0000053,"line,bar,none",2,,,b33,0.9,b32,goal,Train of Four Taken,NMB01
-999,b2962,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b2963,obo:cpo_0000053,"line,bar,none",4,,,b296,0.9,b1527,goal,"High Glucose Treated, Intraop",GLU01
-1003,b2972,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1196,obo:cpo_0000053,"line,bar,none",11,,,b277,0.93,b276,peers,Thermoregulation Monitoring - Core Temperature,TEMP02
-1011,b2984,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1390,obo:cpo_0000053,"line,bar,none",14,,,b787,0.9,b786,goal,Postoperative Transfer of Care to ICU,TOC03
-1014,b2992,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b2593,obo:cpo_0000053,"line,bar,none",15,,,b66,0.93,b178,peers,PONV Prophylaxis: Adults (Old),PONV01
-1018,b3000,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b1473,obo:cpo_0000053,"line,bar,none",5,,,b155,0.93,b154,peers,"Multimodal Analgesia, Pediatrics",PAIN01
-1025,b302,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b305,obo:cpo_0000053,"line,bar,none",14,http://feedbacktailor.org/ftkb#Worsening,,b121,0.9,b262,goal,Thermoregulation Vigilance - Active Warming,TEMP01
-1026,b3020,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b3022,obo:cpo_0000053,"line,bar,none",15,http://feedbacktailor.org/ftkb#Worsening,,b115,0.9,b332,goal,Reversal Administered,NMB02
-1033,b3036,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b3039,obo:cpo_0000053,"line,bar,none",15,,,b1707,0.93,b1706,peers,Administration of PEEP,PUL03
-1036,b3043,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b2143,obo:cpo_0000053,"line,bar,none",15,,,b456,0.93,b457,peers,Overtransfusion,TRAN02
-1038,b3047,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b119,obo:cpo_0000053,"line,bar,none",5,http://feedbacktailor.org/ftkb#SocialBetter,,b121,0.93,b120,peers,Thermoregulation Vigilance - Active Warming,TEMP01
-1046,b3063,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b3064,obo:cpo_0000053,"line,bar,none",4,,,b50,0.9,b984,goal,SBP < 90 in Cesarean Deliveries,BP04
-1049,b3068,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b2461,obo:cpo_0000053,"line,bar,none",5,,,b736,0.93,b735,peers,Escalated High Glucose Treated,GLU05
-1050,b3072,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1695,obo:cpo_0000053,"line,bar,none",14,http://feedbacktailor.org/ftkb#GoalLoss,http://feedbacktailor.org/ftkb#Worsening,b149,0.9,b148,goal,PONV Prophylaxis: Pediatrics,PONV04
-1055,b3080,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b1979,obo:cpo_0000053,"line,bar,none",4,http://feedbacktailor.org/ftkb#GoalBetter,,b115,0.9,b332,goal,Reversal Administered,NMB02
-1073,b312,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b314,obo:cpo_0000053,"line,bar,none",4,http://feedbacktailor.org/ftkb#GoalBetter,,b211,0.05,b210,goal,Avoiding Medication Overdose,MED01
-1077,b3125,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b2224,obo:cpo_0000053,"line,bar,none",14,,,b1194,0.93,b1634,peers,Postoperative Transfer of Care to PACU,TOC02
-1079,b3138,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b3141,obo:cpo_0000053,"line,bar,none",1,,,b1194,0.9,b1193,goal,Postoperative Transfer of Care to PACU,TOC02
-1082,b3142,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b3144,obo:cpo_0000053,"line,bar,none",15,,,b736,0.93,b735,peers,Escalated High Glucose Treated,GLU05
-1091,b3157,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b1806,obo:cpo_0000053,"line,bar,none",15,,,b589,,b588,peers,General anesthesia after neuraxial in Cesarean Deliveries,GA02
-1093,b3161,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b1557,obo:cpo_0000053,"line,bar,none",4,http://feedbacktailor.org/ftkb#GoalBetter,,b121,0.9,b262,goal,Thermoregulation Vigilance - Active Warming,TEMP01
-1102,b3174,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b2707,obo:cpo_0000053,"line,bar.none",6,http://feedbacktailor.org/ftkb#GoalBetter,,b299,0.9,b685,goal,"Low Glucose Treated, Periop",GLU04
-1104,b3178,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b3179,obo:cpo_0000053,"line,bar,none",15,http://feedbacktailor.org/ftkb#Worsening,,b62,0.9,b86,goal,PONV Prophylaxis (Old): Pediatrics,PONV02
-1110,b3184,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b3185,obo:cpo_0000053,"line,bar,none",4,,,b50,0.93,b49,peers,SBP < 90 in Cesarean Deliveries,BP04
-1112,b3191,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b2488,obo:cpo_0000053,"line,bar,none",1,http://feedbacktailor.org/ftkb#SocialBetter,,b211,0.93,b504,peers,Avoiding Medication Overdose,MED01
-1117,b3199,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1032,obo:cpo_0000053,"line,bar,none",11,,,b33,0.9,b32,goal,Train of Four Taken,NMB01
-1122,b3208,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b3211,obo:cpo_0000053,"line,bar,none",1,,,b1972,0.93,b2026,peers,Hypothermia Avoidance in Cardiac Surgery,TEMP06
-1123,b321,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b322,obo:cpo_0000053,"line,bar,none",4,,,b155,0.93,b154,peers,"Multimodal Analgesia, Pediatrics",PAIN01
-1131,b3223,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b3225,obo:cpo_0000053,"line,bar,none",5,,,b207,0.93,b206,peers,PONV Prophylaxis: Adults,PONV05
-1139,b3238,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b2493,obo:cpo_0000053,"line,bar,none",4,http://feedbacktailor.org/ftkb#GoalBetter,,b299,0.9,b685,goal,"Low Glucose Treated, Periop",GLU04
-1141,b3242,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b2603,obo:cpo_0000053,"line,bar,none",4,,,b39,0.93,b38,peers,Avoiding Monitoring Gaps,BP02
-1146,b3250,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b3252,obo:cpo_0000053,"line,bar.none",6,,,b211,0.93,b504,peers,Avoiding Medication Overdose,MED01
-1153,b3261,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b1418,obo:cpo_0000053,"line,bar,none",15,,,b211,0.93,b504,peers,Avoiding Medication Overdose,MED01
-1155,b3265,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b3266,obo:cpo_0000053,"line,bar,none",2,,,b7,0.05,b6,goal,Myocardial Infarction,CARD02
-1159,b3270,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b2359,obo:cpo_0000053,"line,bar,none",5,,,b54,0.9,b53,goal,Pediatric Temperature Management,TEMP04
-1161,b3276,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b1072,obo:cpo_0000053,"line,bar,none",4,,,b736,0.93,b735,peers,Escalated High Glucose Treated,GLU05
-1164,b3280,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1075,obo:cpo_0000053,"line,bar,none",1,,,b531,0.05,b818,goal,"Myocardial Infarction, High Risk Patients",CARD03
-1171,b3291,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b200,obo:cpo_0000053,"line,bar,none",11,,,b115,0.93,b114,peers,Reversal Administered,NMB02
-1175,b3298,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1620,obo:cpo_0000053,"line,bar,none",2,,,b107,0.93,b405,peers,Transfusion Management Vigilance,TRAN01
-1179,b3304,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1098,obo:cpo_0000053,"line,bar,none",1,http://feedbacktailor.org/ftkb#SocialBetter,,b115,0.93,b114,peers,Reversal Administered,NMB02
-1186,b3320,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b2271,obo:cpo_0000053,"line,bar,none",2,,,b7,0.93,b454,peers,Myocardial Infarction,CARD02
-1189,b3326,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b1352,obo:cpo_0000053,"line,bar,none",15,,,b190,0.93,b287,peers,Low MAP Prevention < 55,BP01
-1193,b3333,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b1045,obo:cpo_0000053,"line,bar,none",15,http://feedbacktailor.org/ftkb#Worsening,,b149,0.9,b148,goal,PONV Prophylaxis: Pediatrics,PONV04
-1200,b3341,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b3237,obo:cpo_0000053,"line,bar,none",4,,,b62,0.9,b86,goal,PONV Prophylaxis (Old): Pediatrics,PONV02
-1205,b335,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b341,obo:cpo_0000053,"line,bar,none",5,http://feedbacktailor.org/ftkb#SocialBetter,,b211,0.93,b504,peers,Avoiding Medication Overdose,MED01
-1208,b3356,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1039,obo:cpo_0000053,"line,bar,none",1,,,b1041,0.1,b1040,goal,Hypothermia in Cesarean Deliveries,TEMP05
-1210,b3361,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b3362,obo:cpo_0000053,"line,bar,none",5,,,b104,0.1,b411,goal,Acute Kidney Injury,AKI01
-1348,b350,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b352,obo:cpo_0000053,"line,bar,none",15,,,b7,0.93,b454,peers,Myocardial Infarction,CARD02
-1359,b3518,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b2745,obo:cpo_0000053,"line,bar.none",6,,,b54,0.9,b53,goal,Pediatric Temperature Management,TEMP04
-1364,b3526,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b2844,obo:cpo_0000053,"line,bar,none",14,,,b299,0.9,b685,goal,"Low Glucose Treated, Periop",GLU04
-1370,b3541,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b2709,obo:cpo_0000053,"line,bar,none",1,,,b268,0.93,b1884,peers,Low MAP Prevention < 55,BP01
-1371,b3543,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b2768,obo:cpo_0000053,"line,bar,none",4,http://feedbacktailor.org/ftkb#GoalBetter,,b277,0.9,b495,goal,Thermoregulation Monitoring - Core Temperature,TEMP02
-1374,b3549,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b2572,obo:cpo_0000053,"line,bar.none",6,,,b277,0.93,b276,peers,Thermoregulation Monitoring - Core Temperature,TEMP02
-1383,b356,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b359,obo:cpo_0000053,"line,bar,none",15,http://feedbacktailor.org/ftkb#Worsening,,b115,0.93,b114,peers,Reversal Administered,NMB02
-1384,b3560,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1348,obo:cpo_0000053,"line,bar.none",6,,,b204,0.93,b203,peers,Minimizing Colloid Use (Cardiac),FLUID01C
-1385,b3562,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b3565,obo:cpo_0000053,"line,bar,none",1,,,b915,0.93,b1770,peers,"High Glucose Treated, Periop",GLU03
-1391,b3573,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b3574,obo:cpo_0000053,"line,bar,none",4,,,b1707,0.93,b1706,peers,Administration of PEEP,PUL03
-1400,b3591,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b3593,obo:cpo_0000053,"line,bar,none",2,,,b1041,0.1,b1040,goal,Hypothermia in Cesarean Deliveries,TEMP05
-1403,b3596,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b3115,obo:cpo_0000053,"line,bar,none",5,,,b149,0.93,b487,peers,PONV Prophylaxis: Pediatrics,PONV04
-1410,b3606,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b3312,obo:cpo_0000053,"line,bar,none",11,,,b107,0.9,b106,goal,Transfusion Management Vigilance,TRAN01
-1415,b3617,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1518,obo:cpo_0000053,"line,bar,none",14,,,b531,0.05,b818,goal,"Myocardial Infarction, High Risk Patients",CARD03
-1419,b3627,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b3629,obo:cpo_0000053,"line,bar,none",5,,,b1972,0.1,b1971,goal,Hypothermia Avoidance in Cardiac Surgery,TEMP06
-1422,b3635,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b3638,obo:cpo_0000053,"line,bar,none",11,,,b1110,0.9,b1109,goal,"Low Glucose Treated, Intraop",GLU02
-1424,b364,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b365,obo:cpo_0000053,"line,bar.none",6,,,b33,0.93,b635,peers,Train of Four Taken,NMB01
-1427,b3644,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b3645,obo:cpo_0000053,"line,bar.none",6,,,b169,0.93,b168,peers,Multimodal Analgesia,PAIN02
-1436,b3657,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b3660,obo:cpo_0000053,"line,bar,none",11,,,b1041,0.1,b1040,goal,Hypothermia in Cesarean Deliveries,TEMP05
-1439,b3662,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b2072,obo:cpo_0000053,"line,bar,none",15,,,b104,0.93,b103,peers,Acute Kidney Injury,AKI01
-1440,b3667,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b3668,obo:cpo_0000053,"line,bar,none",15,,,b915,0.9,b914,goal,"High Glucose Treated, Periop",GLU03
-1444,b3672,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b164,obo:cpo_0000053,"line,bar,none",4,,,b104,0.93,b103,peers,Acute Kidney Injury,AKI01
-1446,b3674,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b3677,obo:cpo_0000053,"line,bar,none",14,,,b2151,0.93,b2152,peers,General Anesthesia During Cesarean Deliveries,GA01
-1451,b3683,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b3059,obo:cpo_0000053,"line,bar,none",15,,,b320,0.93,b319,peers,Low Map Prevention < 65,BP03
-1458,b3695,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b3696,obo:cpo_0000053,"line,bar,none",15,,,b1972,0.1,b1971,goal,Hypothermia Avoidance in Cardiac Surgery,TEMP06
-1463,b3702,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b3703,obo:cpo_0000053,"line,bar,none",5,,,b1707,0.93,b1706,peers,Administration of PEEP,PUL03
-1465,b3705,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b3707,obo:cpo_0000053,"line,bar,none",2,,,b1194,0.93,b1634,peers,Postoperative Transfer of Care to PACU,TOC02
-1467,b3709,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b3711,obo:cpo_0000053,"line,bar,none",5,http://feedbacktailor.org/ftkb#SocialBetter,,b11,0.93,b88,peers,Low Fresh Gas Flow,SUS01
-1475,b3719,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1804,obo:cpo_0000053,"line,bar,none",11,,,b4,0.9,b161,goal,"Protective Tidal Volume, 10 mL/kg PBW",PUL01
-1481,b3727,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b3028,obo:cpo_0000053,"line,bar,none",1,http://feedbacktailor.org/ftkb#SocialBetter,,b277,0.93,b276,peers,Thermoregulation Monitoring - Core Temperature,TEMP02
-1488,b3735,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1892,obo:cpo_0000053,"line,bar,none",11,http://feedbacktailor.org/ftkb#GoalApproach,,b207,0.9,b698,goal,PONV Prophylaxis: Adults,PONV05
-1493,b3742,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1380,obo:cpo_0000053,"line,bar,none",1,,,b428,0.1,b762,goal,Acute Kidney Injury,AKI01
-1496,b3749,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b2895,obo:cpo_0000053,"line,bar,none",11,,,b299,0.93,b298,peers,"Low Glucose Treated, Periop",GLU04
-1502,b3759,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b1890,obo:cpo_0000053,"line,bar,none",5,http://feedbacktailor.org/ftkb#SocialBetter,,b299,0.93,b298,peers,"Low Glucose Treated, Periop",GLU04
-1503,b376,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b377,obo:cpo_0000053,"line,bar,none",1,,,b207,0.93,b206,peers,PONV Prophylaxis: Adults,PONV05
-1506,b3768,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1994,obo:cpo_0000053,"line,bar,none",2,http://feedbacktailor.org/ftkb#SocialWorse,,b155,0.93,b154,peers,"Multimodal Analgesia, Pediatrics",PAIN01
-1511,b3778,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b139,obo:cpo_0000053,"line,bar,none",15,http://feedbacktailor.org/ftkb#Worsening,,b11,0.93,b88,peers,Low Fresh Gas Flow,SUS01
-1513,b3780,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b2208,obo:cpo_0000053,"line,bar,none",4,,,b299,0.93,b298,peers,"Low Glucose Treated, Periop",GLU04
-1515,b3785,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b174,obo:cpo_0000053,"line,bar,none",11,,,b59,0.93,b175,peers,Postoperative Nausea or Vomiting Outcome,PONV03b
-1527,b3803,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b2748,obo:cpo_0000053,"line,bar,none",2,,,b436,0.93,b732,peers,Antibiotic Timing for Cesarean Delivery,ABX01
-1531,b3811,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b2880,obo:cpo_0000053,"line,bar,none",1,http://feedbacktailor.org/ftkb#SocialBetter,,b7,0.93,b454,peers,Myocardial Infarction,CARD02
-1535,b3825,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1982,obo:cpo_0000053,"line,bar,none",1,http://feedbacktailor.org/ftkb#SocialBetter,,b59,0.93,b175,peers,Postoperative Nausea or Vomiting Outcome,PONV03b
-1542,b3832,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b3718,obo:cpo_0000053,"line,bar,none",2,,,b59,0.93,b175,peers,Postoperative Nausea or Vomiting Outcome,PONV03b
-1548,b3838,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1659,obo:cpo_0000053,"line,bar,none",14,,,b915,0.9,b914,goal,"High Glucose Treated, Periop",GLU03
-1549,b384,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b385,obo:cpo_0000053,"line,bar,none",5,,,b62,0.9,b86,goal,PONV Prophylaxis (Old): Pediatrics,PONV02
-1550,b3840,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b2342,obo:cpo_0000053,"line,bar,none",15,http://feedbacktailor.org/ftkb#Worsening,,b11,0.9,b10,goal,Low Fresh Gas Flow,SUS01
-1553,b3845,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1512,obo:cpo_0000053,"line,bar,none",11,,,b39,0.93,b38,peers,Avoiding Monitoring Gaps,BP02
-1558,b3856,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b3857,obo:cpo_0000053,"line,bar,none",4,http://feedbacktailor.org/ftkb#GoalBetter,,b531,0.05,b818,goal,"Myocardial Infarction, High Risk Patients",CARD03
-1563,b3861,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1176,obo:cpo_0000053,"line,bar,none",11,http://feedbacktailor.org/ftkb#GoalApproach,,b54,0.9,b53,goal,Pediatric Temperature Management,TEMP04
-1571,b3873,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1650,obo:cpo_0000053,"line,bar,none",2,http://feedbacktailor.org/ftkb#SocialWorse,,b204,0.93,b203,peers,Minimizing Colloid Use (Cardiac),FLUID01C
-1574,b3879,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b3572,obo:cpo_0000053,"line,bar,none",1,,,b428,0.93,b427,peers,Acute Kidney Injury,AKI01
-1578,b3887,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1458,obo:cpo_0000053,"line,bar.none",6,,,b320,0.93,b319,peers,Low Map Prevention < 65,BP03
-1584,b3899,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b3900,obo:cpo_0000053,"line,bar,none",14,,,b211,0.05,b210,goal,Avoiding Medication Overdose,MED01
-1588,b3905,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b1614,obo:cpo_0000053,"line,bar,none",4,,,b169,0.93,b168,peers,Multimodal Analgesia,PAIN02
-1592,b3913,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b2163,obo:cpo_0000053,"line,bar,none",11,,,b296,0.93,b295,peers,"High Glucose Treated, Intraop",GLU01
-1595,b3920,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b1744,obo:cpo_0000053,"line,bar,none",5,,,b7,0.05,b6,goal,Myocardial Infarction,CARD02
-1598,b3928,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b3930,obo:cpo_0000053,"line,bar,none",11,,,b456,0.1,b458,goal,Overtransfusion,TRAN02
-1602,b3936,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b3937,obo:cpo_0000053,"line,bar.none",6,,,b54,0.93,b110,peers,Pediatric Temperature Management,TEMP04
-1609,b3946,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b3207,obo:cpo_0000053,"line,bar,none",15,http://feedbacktailor.org/ftkb#Worsening,,b155,0.93,b154,peers,"Multimodal Analgesia, Pediatrics",PAIN01
-1613,b3954,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b3956,obo:cpo_0000053,"line,bar,none",11,,,b428,0.93,b427,peers,Acute Kidney Injury,AKI01
-1618,b3962,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b3963,obo:cpo_0000053,"line,bar,none",11,,,b11,0.9,b10,goal,Low Fresh Gas Flow,SUS01
-1625,b3971,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b3972,obo:cpo_0000053,"line,bar,none",15,,,b2151,0.93,b2152,peers,General Anesthesia During Cesarean Deliveries,GA01
-1627,b3976,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b3121,obo:cpo_0000053,"line,bar.none",6,,,b1972,0.93,b2026,peers,Hypothermia Avoidance in Cardiac Surgery,TEMP06
-1628,b3977,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b1315,obo:cpo_0000053,"line,bar,none",4,,,b11,0.93,b88,peers,Low Fresh Gas Flow,SUS01
-1630,b3983,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1607,obo:cpo_0000053,"line,bar.none",6,,,b207,0.9,b698,goal,PONV Prophylaxis: Adults,PONV05
-1633,b3988,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b294,obo:cpo_0000053,"line,bar.none",6,,,b296,0.93,b295,peers,"High Glucose Treated, Intraop",GLU01
-1634,b3990,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b3992,obo:cpo_0000053,"line,bar,none",4,,,b1972,0.1,b1971,goal,Hypothermia Avoidance in Cardiac Surgery,TEMP06
-1638,b3995,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1514,obo:cpo_0000053,"line,bar,none",1,http://feedbacktailor.org/ftkb#SocialBetter,,b39,0.93,b38,peers,Avoiding Monitoring Gaps,BP02
-1646,b4007,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1150,obo:cpo_0000053,"line,bar,none",14,,,b7,0.93,b454,peers,Myocardial Infarction,CARD02
-1649,b4015,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1236,obo:cpo_0000053,"line,bar,none",11,,,b121,0.93,b120,peers,Thermoregulation Vigilance - Active Warming,TEMP01
-1653,b4020,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b3661,obo:cpo_0000053,"line,bar.none",6,,,b50,0.93,b49,peers,SBP < 90 in Cesarean Deliveries,BP04
-1667,b4043,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1076,obo:cpo_0000053,"line,bar,none",11,,,b422,0.9,b796,goal,"Protective Tidal Volume, 8 mL/kg PBW",PUL02
-1670,b4050,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1303,obo:cpo_0000053,"line,bar.none",6,,,b149,0.93,b487,peers,PONV Prophylaxis: Pediatrics,PONV04
-1679,b4063,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1970,obo:cpo_0000053,"line,bar,none",14,,,b1972,0.1,b1971,goal,Hypothermia Avoidance in Cardiac Surgery,TEMP06
-1680,b4069,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b2401,obo:cpo_0000053,"line,bar,none",1,http://feedbacktailor.org/ftkb#SocialBetter,,b121,0.93,b120,peers,Thermoregulation Vigilance - Active Warming,TEMP01
-1687,b4078,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b2374,obo:cpo_0000053,"line,bar,none",14,http://feedbacktailor.org/ftkb#Worsening,,b62,0.93,b61,peers,PONV Prophylaxis (Old): Pediatrics,PONV02
-1689,b4083,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b4085,obo:cpo_0000053,"line,bar,none",2,,,b787,0.9,b786,goal,Postoperative Transfer of Care to ICU,TOC03
-1691,b4087,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b3733,obo:cpo_0000053,"line,bar,none",5,,,b320,0.93,b319,peers,Low Map Prevention < 65,BP03
-1697,b41,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b47,obo:cpo_0000053,"line,bar.none",6,,,b456,0.93,b457,peers,Overtransfusion,TRAN02
-1702,b4109,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1359,obo:cpo_0000053,"line,bar,none",1,,,b211,0.05,b210,goal,Avoiding Medication Overdose,MED01
-1706,b4116,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b2081,obo:cpo_0000053,"line,bar,none",2,,,b158,0.93,b157,peers,30 Day Post-Op In-Hospital Mortality Rate,MORT01
-1709,b4121,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b4122,obo:cpo_0000053,"line,bar,none",15,,,b66,0.9,b65,goal,PONV Prophylaxis: Adults (Old),PONV01
-1713,b4125,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b2016,obo:cpo_0000053,"line,bar.none",6,,,b62,0.9,b86,goal,PONV Prophylaxis (Old): Pediatrics,PONV02
-1718,b4133,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b4134,obo:cpo_0000053,"line,bar,none",1,,,b190,0.9,b189,goal,Low MAP Prevention < 55,BP01
-1722,b4139,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b334,obo:cpo_0000053,"line,bar,none",14,,,b320,0.93,b319,peers,Low Map Prevention < 65,BP03
-1724,b4143,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b1268,obo:cpo_0000053,"line,bar,none",5,,,b320,0.9,b527,goal,Low Map Prevention < 65,BP03
-1733,b4158,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b4161,obo:cpo_0000053,"line,bar,none",14,,,b244,0.93,b799,peers,Intraoperative Transfer of Care,TOC01
-1735,b4164,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b2116,obo:cpo_0000053,"line,bar,none",2,,,b11,0.93,b88,peers,Low Fresh Gas Flow,SUS01
-1739,b4171,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b4175,obo:cpo_0000053,"line,bar,none",14,,,b107,0.9,b106,goal,Transfusion Management Vigilance,TRAN01
-1741,b4177,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b4178,obo:cpo_0000053,"line,bar,none",2,,,b268,0.9,b267,goal,Low MAP Prevention < 55,BP01
-1745,b4183,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b2842,obo:cpo_0000053,"line,bar,none",4,http://feedbacktailor.org/ftkb#GoalBetter,,b39,0.9,b55,goal,Avoiding Monitoring Gaps,BP02
-1749,b4190,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1003,obo:cpo_0000053,"line,bar.none",6,,,b59,0.93,b175,peers,Postoperative Nausea or Vomiting Outcome,PONV03b
-1753,b4199,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b4200,obo:cpo_0000053,"line,bar,none",1,,,b296,0.9,b1527,goal,"High Glucose Treated, Intraop",GLU01
-1756,b4202,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1163,obo:cpo_0000053,"line,bar,none",14,,,b207,0.93,b206,peers,PONV Prophylaxis: Adults,PONV05
-1759,b4207,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1132,obo:cpo_0000053,"line,bar,none",2,,,b149,0.9,b148,goal,PONV Prophylaxis: Pediatrics,PONV04
-1764,b4213,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b2573,obo:cpo_0000053,"line,bar.none",6,,,b62,0.93,b61,peers,PONV Prophylaxis (Old): Pediatrics,PONV02
-1767,b4217,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b2529,obo:cpo_0000053,"line,bar,none",15,http://feedbacktailor.org/ftkb#Worsening,,b428,0.93,b427,peers,Acute Kidney Injury,AKI01
-1770,b4223,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1508,obo:cpo_0000053,"line,bar,none",2,,,b211,0.05,b210,goal,Avoiding Medication Overdose,MED01
-1771,b4226,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b3100,obo:cpo_0000053,"line,bar,none",2,,,b121,0.93,b120,peers,Thermoregulation Vigilance - Active Warming,TEMP01
-1774,b4231,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b3515,obo:cpo_0000053,"line,bar,none",1,,,b54,0.93,b110,peers,Pediatric Temperature Management,TEMP04
-1778,b4239,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b1619,obo:cpo_0000053,"line,bar,none",15,,,b181,0.93,b180,peers,Perioperative Hypothermia,TEMP03
-1780,b4244,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1115,obo:cpo_0000053,"line,bar,none",11,,,b115,0.9,b332,goal,Reversal Administered,NMB02
-1783,b4252,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b4253,obo:cpo_0000053,"line,bar,none",2,,,b428,0.1,b762,goal,Acute Kidney Injury,AKI01
-1792,b4263,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b2446,obo:cpo_0000053,"line,bar,none",11,,,b4,0.93,b3,peers,"Protective Tidal Volume, 10 mL/kg PBW",PUL01
-1796,b4270,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b4000,obo:cpo_0000053,"line,bar,none",14,http://feedbacktailor.org/ftkb#Worsening,,b428,0.93,b427,peers,Acute Kidney Injury,AKI01
-1801,b4278,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b4280,obo:cpo_0000053,"line,bar,none",2,,,b787,0.93,b789,peers,Postoperative Transfer of Care to ICU,TOC03
-1806,b4290,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1281,obo:cpo_0000053,"line,bar,none",14,,,b4,0.93,b3,peers,"Protective Tidal Volume, 10 mL/kg PBW",PUL01
-1810,b4299,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b4300,obo:cpo_0000053,"line,bar,none",15,,,b248,0.93,b395,peers,Postoperative Nausea or Vomiting Outcome,PONV03
-1816,b4307,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b3514,obo:cpo_0000053,"line,bar,none",2,,,b589,,b588,peers,General anesthesia after neuraxial in Cesarean Deliveries,GA02
-1820,b4312,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b2113,obo:cpo_0000053,"line,bar,none",2,,,b66,0.93,b178,peers,PONV Prophylaxis: Adults (Old),PONV01
-1828,b4323,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b404,obo:cpo_0000053,"line,bar,none",4,,,b107,0.93,b405,peers,Transfusion Management Vigilance,TRAN01
-1829,b4325,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b3067,obo:cpo_0000053,"line,bar,none",5,,,b296,0.9,b1527,goal,"High Glucose Treated, Intraop",GLU01
-1831,b4331,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1111,obo:cpo_0000053,"line,bar,none",2,,,b181,0.1,b393,goal,Perioperative Hypothermia,TEMP03
-1833,b4334,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b2855,obo:cpo_0000053,"line,bar,none",14,,,b211,0.93,b504,peers,Avoiding Medication Overdose,MED01
-1838,b4340,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b4344,obo:cpo_0000053,"line,bar,none",14,,,b456,0.1,b458,goal,Overtransfusion,TRAN02
-1842,b4348,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1160,obo:cpo_0000053,"line,bar,none",14,,,b248,0.93,b395,peers,Postoperative Nausea or Vomiting Outcome,PONV03
-1844,b4354,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1267,obo:cpo_0000053,"line,bar.none",6,,,b248,0.93,b395,peers,Postoperative Nausea or Vomiting Outcome,PONV03
-1848,b4369,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b4372,obo:cpo_0000053,"line,bar,none",5,,,b107,0.9,b106,goal,Transfusion Management Vigilance,TRAN01
-1851,b4374,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1118,obo:cpo_0000053,"line,bar,none",14,,,b190,0.93,b287,peers,Low MAP Prevention < 55,BP01
-1855,b4383,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b1746,obo:cpo_0000053,"line,bar,none",5,,,b531,0.05,b818,goal,"Myocardial Infarction, High Risk Patients",CARD03
-1858,b4388,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b48,obo:cpo_0000053,"line,bar,none",1,,,b50,0.93,b49,peers,SBP < 90 in Cesarean Deliveries,BP04
-1859,b439,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b440,obo:cpo_0000053,"line,bar,none",1,,,b299,0.9,b685,goal,"Low Glucose Treated, Periop",GLU04
-1861,b4391,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b2366,obo:cpo_0000053,"line,bar,none",5,,,b33,0.9,b32,goal,Train of Four Taken,NMB01
-1867,b4402,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1282,obo:cpo_0000053,"line,bar,none",1,http://feedbacktailor.org/ftkb#SocialBetter,,b66,0.93,b178,peers,PONV Prophylaxis: Adults (Old),PONV01
-1868,b4403,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b4404,obo:cpo_0000053,"line,bar,none",15,,,b107,0.93,b405,peers,Transfusion Management Vigilance,TRAN01
-1871,b4407,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b2383,obo:cpo_0000053,"line,bar,none",4,,,b436,0.9,b435,goal,Antibiotic Timing for Cesarean Delivery,ABX01
-1873,b4412,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b3970,obo:cpo_0000053,"line,bar,none",5,http://feedbacktailor.org/ftkb#SocialBetter,,b33,0.93,b635,peers,Train of Four Taken,NMB01
-1876,b4417,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b4418,obo:cpo_0000053,"line,bar,none",4,,,b915,0.93,b1770,peers,"High Glucose Treated, Periop",GLU03
-1878,b4419,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b2210,obo:cpo_0000053,"line,bar,none",15,,,b59,0.93,b175,peers,Postoperative Nausea or Vomiting Outcome,PONV03b
-1881,b4424,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b4425,obo:cpo_0000053,"line,bar,none",15,,,b244,0.93,b799,peers,Intraoperative Transfer of Care,TOC01
-1884,b4430,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1805,obo:cpo_0000053,"line,bar,none",2,,,b39,0.93,b38,peers,Avoiding Monitoring Gaps,BP02
-1893,b4442,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b3079,obo:cpo_0000053,"line,bar,none",1,,,b62,0.93,b61,peers,PONV Prophylaxis (Old): Pediatrics,PONV02
-1898,b4450,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b4452,obo:cpo_0000053,"line,bar,none",11,,,b244,0.9,b243,goal,Intraoperative Transfer of Care,TOC01
-1902,b446,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b318,obo:cpo_0000053,"line,bar,none",2,http://feedbacktailor.org/ftkb#SocialWorse,,b320,0.93,b319,peers,Low Map Prevention < 65,BP03
-1908,b4470,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1476,obo:cpo_0000053,"line,bar.none",6,,,b422,0.93,b421,peers,"Protective Tidal Volume, 8 mL/kg PBW",PUL02
-1914,b4480,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b2982,obo:cpo_0000053,"line,bar,none",1,http://feedbacktailor.org/ftkb#SocialBetter,,b181,0.93,b180,peers,Perioperative Hypothermia,TEMP03
-1921,b4490,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b1478,obo:cpo_0000053,"line,bar,none",4,http://feedbacktailor.org/ftkb#GoalBetter,,b33,0.9,b32,goal,Train of Four Taken,NMB01
-1928,b4505,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b3235,obo:cpo_0000053,"line,bar,none",11,http://feedbacktailor.org/ftkb#GoalApproach,,b320,0.9,b527,goal,Low Map Prevention < 65,BP03
-1933,b4510,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b1311,obo:cpo_0000053,"line,bar,none",5,,,b50,0.93,b49,peers,SBP < 90 in Cesarean Deliveries,BP04
-1934,b4512,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1950,obo:cpo_0000053,"line,bar.none",6,,,b739,0.93,b740,peers,Minimizing Colloid Use (Non-Cardiac),FLUID01NC
-1938,b4519,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b4521,obo:cpo_0000053,"line,bar,none",2,,,b296,0.93,b295,peers,"High Glucose Treated, Intraop",GLU01
-1942,b4523,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b4101,obo:cpo_0000053,"line,bar,none",4,,,b59,0.93,b175,peers,Postoperative Nausea or Vomiting Outcome,PONV03b
-1946,b4529,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b4345,obo:cpo_0000053,"line,bar,none",11,,,b456,0.93,b457,peers,Overtransfusion,TRAN02
-1949,b4533,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b913,obo:cpo_0000053,"line,bar,none",1,,,b915,0.9,b914,goal,"High Glucose Treated, Periop",GLU03
-1950,b4534,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b3169,obo:cpo_0000053,"line,bar,none",11,,,b531,0.05,b818,goal,"Myocardial Infarction, High Risk Patients",CARD03
-1952,b4539,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b3691,obo:cpo_0000053,"line,bar,none",15,,,b107,0.9,b106,goal,Transfusion Management Vigilance,TRAN01
-1954,b4542,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b4543,obo:cpo_0000053,"line,bar,none",11,,,b787,0.93,b789,peers,Postoperative Transfer of Care to ICU,TOC03
-1956,b4545,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b176,obo:cpo_0000053,"line,bar,none",11,,,b155,0.93,b154,peers,"Multimodal Analgesia, Pediatrics",PAIN01
-1961,b4551,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b4212,obo:cpo_0000053,"line,bar,none",5,http://feedbacktailor.org/ftkb#SocialBetter,http://feedbacktailor.org/ftkb#SocialGain,b277,0.93,b276,peers,Thermoregulation Monitoring - Core Temperature,TEMP02
-1967,b4561,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b4564,obo:cpo_0000053,"line,bar,none",11,,,b107,0.93,b405,peers,Transfusion Management Vigilance,TRAN01
-1969,b4567,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b4568,obo:cpo_0000053,"line,bar,none",14,,,b104,0.93,b103,peers,Acute Kidney Injury,AKI01
-1971,b4569,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1102,obo:cpo_0000053,"line,bar,none",1,,,b207,0.9,b698,goal,PONV Prophylaxis: Adults,PONV05
-1973,b4573,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b4574,obo:cpo_0000053,"line,bar,none",15,,,b158,0.93,b157,peers,30 Day Post-Op In-Hospital Mortality Rate,MORT01
-1975,b4575,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b2526,obo:cpo_0000053,"line,bar,none",5,,,b211,0.05,b210,goal,Avoiding Medication Overdose,MED01
-1977,b4578,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b2424,obo:cpo_0000053,"line,bar,none",11,,,b248,0.93,b395,peers,Postoperative Nausea or Vomiting Outcome,PONV03
-1978,b4583,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b4585,obo:cpo_0000053,"line,bar,none",2,,,b531,0.05,b818,goal,"Myocardial Infarction, High Risk Patients",CARD03
-1983,b459,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b461,obo:cpo_0000053,"line,bar,none",5,,,b50,0.9,b984,goal,SBP < 90 in Cesarean Deliveries,BP04
-1984,b4590,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b4591,obo:cpo_0000053,"line,bar,none",4,,,b1194,0.9,b1193,goal,Postoperative Transfer of Care to PACU,TOC02
-1988,b4597,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b1164,obo:cpo_0000053,"line,bar,none",4,http://feedbacktailor.org/ftkb#GoalBetter,,b181,0.1,b393,goal,Perioperative Hypothermia,TEMP03
-1991,b4603,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b4236,obo:cpo_0000053,"line,bar,none",15,,,b1041,0.93,b1232,peers,Hypothermia in Cesarean Deliveries,TEMP05
-1992,b4604,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1192,obo:cpo_0000053,"line,bar,none",14,,,b1194,0.9,b1193,goal,Postoperative Transfer of Care to PACU,TOC02
-1998,b4613,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1685,obo:cpo_0000053,"line,bar,none",14,http://feedbacktailor.org/ftkb#Worsening,,b204,0.93,b203,peers,Minimizing Colloid Use (Cardiac),FLUID01C
-2002,b4619,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b4427,obo:cpo_0000053,"line,bar,none",5,,,b62,0.93,b61,peers,PONV Prophylaxis (Old): Pediatrics,PONV02
-2006,b4624,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b4627,obo:cpo_0000053,"line,bar,none",14,,,b104,0.1,b411,goal,Acute Kidney Injury,AKI01
-2009,b4629,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1562,obo:cpo_0000053,"line,bar,none",11,,,b169,0.93,b168,peers,Multimodal Analgesia,PAIN02
-2014,b4639,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b2598,obo:cpo_0000053,"line,bar,none",14,,,b299,0.93,b298,peers,"Low Glucose Treated, Periop",GLU04
-2018,b4647,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b581,obo:cpo_0000053,"line,bar,none",4,,,b456,0.93,b457,peers,Overtransfusion,TRAN02
-2020,b4651,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b4652,obo:cpo_0000053,"line,bar,none",4,,,b1110,0.93,b3911,peers,"Low Glucose Treated, Intraop",GLU02
-2022,b4656,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b4658,obo:cpo_0000053,"line,bar,none",15,,,b104,0.1,b411,goal,Acute Kidney Injury,AKI01
-2024,b466,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b467,obo:cpo_0000053,"line,bar,none",1,http://feedbacktailor.org/ftkb#SocialBetter,,b11,0.93,b88,peers,Low Fresh Gas Flow,SUS01
-2027,b4662,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b4454,obo:cpo_0000053,"line,bar.none",6,,,b39,0.93,b38,peers,Avoiding Monitoring Gaps,BP02
-2031,b4668,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b4670,obo:cpo_0000053,"line,bar,none",1,,,b158,0.93,b157,peers,30 Day Post-Op In-Hospital Mortality Rate,MORT01
-2035,b4672,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b4673,obo:cpo_0000053,"line,bar,none",1,,,b296,0.93,b295,peers,"High Glucose Treated, Intraop",GLU01
-2040,b4683,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b410,obo:cpo_0000053,"line,bar,none",11,,,b104,0.1,b411,goal,Acute Kidney Injury,AKI01
-2043,b4691,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b4694,obo:cpo_0000053,"line,bar,none",14,,,b50,0.9,b984,goal,SBP < 90 in Cesarean Deliveries,BP04
-2045,b4698,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b3533,obo:cpo_0000053,"line,bar,none",2,,,b268,0.93,b1884,peers,Low MAP Prevention < 55,BP01
-2047,b4701,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b2065,obo:cpo_0000053,"line,bar,none",14,,,b296,0.9,b1527,goal,"High Glucose Treated, Intraop",GLU01
-2048,b4706,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b3694,obo:cpo_0000053,"line,bar,none",4,,,b66,0.93,b178,peers,PONV Prophylaxis: Adults (Old),PONV01
-2053,b4716,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b4258,obo:cpo_0000053,"line,bar.none",6,,,b1110,0.93,b3911,peers,"Low Glucose Treated, Intraop",GLU02
-2055,b4720,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b2166,obo:cpo_0000053,"line,bar,none",14,,,b54,0.93,b110,peers,Pediatric Temperature Management,TEMP04
-2058,b4727,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b2990,obo:cpo_0000053,"line,bar,none",1,,,b736,0.9,b745,goal,Escalated High Glucose Treated,GLU05
-2059,b4729,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b4731,obo:cpo_0000053,"line,bar.none",6,,,b915,0.9,b914,goal,"High Glucose Treated, Periop",GLU03
-2063,b4738,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b2061,obo:cpo_0000053,"line,bar,none",5,http://feedbacktailor.org/ftkb#SocialBetter,,b190,0.93,b287,peers,Low MAP Prevention < 55,BP01
-2064,b474,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b475,obo:cpo_0000053,"line,bar,none",15,,,b211,0.05,b210,goal,Avoiding Medication Overdose,MED01
-2065,b4743,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b4710,obo:cpo_0000053,"line,bar,none",1,,,b1041,0.93,b1232,peers,Hypothermia in Cesarean Deliveries,TEMP05
-2066,b4746,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b4111,obo:cpo_0000053,"line,bar,none",4,,,b422,0.93,b421,peers,"Protective Tidal Volume, 8 mL/kg PBW",PUL02
-2070,b4750,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b4752,obo:cpo_0000053,"line,bar,none",4,,,b1972,0.93,b2026,peers,Hypothermia Avoidance in Cardiac Surgery,TEMP06
-2076,b4757,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b4761,obo:cpo_0000053,"line,bar,none",5,,,b787,0.93,b789,peers,Postoperative Transfer of Care to ICU,TOC03
-2078,b4764,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b4765,obo:cpo_0000053,"line,bar,none",15,,,b1972,0.93,b2026,peers,Hypothermia Avoidance in Cardiac Surgery,TEMP06
-2084,b4775,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b2947,obo:cpo_0000053,"line,bar,none",5,http://feedbacktailor.org/ftkb#SocialBetter,,b739,0.93,b740,peers,Minimizing Colloid Use (Non-Cardiac),FLUID01NC
-2088,b4781,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b3219,obo:cpo_0000053,"line,bar,none",11,,,b39,0.9,b55,goal,Avoiding Monitoring Gaps,BP02
-2091,b4788,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b2601,obo:cpo_0000053,"line,bar.none",6,,,b320,0.9,b527,goal,Low Map Prevention < 65,BP03
-2096,b4794,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b2362,obo:cpo_0000053,"line,bar,none",2,,,b115,0.9,b332,goal,Reversal Administered,NMB02
-2099,b4799,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b3993,obo:cpo_0000053,"line,bar,none",4,http://feedbacktailor.org/ftkb#GoalBetter,,b59,0.1,b58,goal,Postoperative Nausea or Vomiting Outcome,PONV03b
-2105,b4806,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b4808,obo:cpo_0000053,"line,bar,none",14,,,b296,0.93,b295,peers,"High Glucose Treated, Intraop",GLU01
-2108,b4815,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1532,obo:cpo_0000053,"line,bar,none",14,http://feedbacktailor.org/ftkb#Worsening,,b11,0.93,b88,peers,Low Fresh Gas Flow,SUS01
-2115,b4827,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b1094,obo:cpo_0000053,"line,bar,none",5,http://feedbacktailor.org/ftkb#SocialBetter,http://feedbacktailor.org/ftkb#SocialGain,b59,0.93,b175,peers,Postoperative Nausea or Vomiting Outcome,PONV03b
-2117,b4831,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b839,obo:cpo_0000053,"line,bar,none",11,,,b589,,b588,peers,General anesthesia after neuraxial in Cesarean Deliveries,GA02
-2118,b4833,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b3123,obo:cpo_0000053,"line,bar,none",2,,,b50,0.9,b984,goal,SBP < 90 in Cesarean Deliveries,BP04
-2119,b4835,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b4837,obo:cpo_0000053,"line,bar,none",15,,,b1110,0.93,b3911,peers,"Low Glucose Treated, Intraop",GLU02
-2121,b4838,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b4839,obo:cpo_0000053,"line,bar.none",6,,,b736,0.93,b735,peers,Escalated High Glucose Treated,GLU05
-2124,b4841,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b2932,obo:cpo_0000053,"line,bar,none",4,http://feedbacktailor.org/ftkb#GoalBetter,,b248,0.1,b165,goal,Postoperative Nausea or Vomiting Outcome,PONV03
-2126,b4846,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b3559,obo:cpo_0000053,"line,bar,none",1,http://feedbacktailor.org/ftkb#SocialBetter,,b739,0.93,b740,peers,Minimizing Colloid Use (Non-Cardiac),FLUID01NC
-2130,b4853,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b3793,obo:cpo_0000053,"line,bar,none",11,,,b62,0.93,b61,peers,PONV Prophylaxis (Old): Pediatrics,PONV02
-2135,b4864,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b744,obo:cpo_0000053,"line,bar,none",11,,,b736,0.9,b745,goal,Escalated High Glucose Treated,GLU05
-2136,b4866,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1705,obo:cpo_0000053,"line,bar,none",1,,,b1707,0.93,b1706,peers,Administration of PEEP,PUL03
-2139,b4870,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b274,obo:cpo_0000053,"line,bar,none",14,http://feedbacktailor.org/ftkb#Worsening,,b11,0.9,b10,goal,Low Fresh Gas Flow,SUS01
-2141,b4874,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b3213,obo:cpo_0000053,"line,bar,none",2,,,b211,0.93,b504,peers,Avoiding Medication Overdose,MED01
-2143,b4877,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b2085,obo:cpo_0000053,"line,bar,none",2,,,b531,0.93,b530,peers,"Myocardial Infarction, High Risk Patients",CARD03
-2146,b4882,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b2848,obo:cpo_0000053,"line,bar.none",6,,,b589,,b588,peers,General anesthesia after neuraxial in Cesarean Deliveries,GA02
-2149,b4893,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b3570,obo:cpo_0000053,"line,bar,none",11,,,b787,0.9,b786,goal,Postoperative Transfer of Care to ICU,TOC03
-2150,b4897,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b4690,obo:cpo_0000053,"line,bar,none",11,,,b1194,0.93,b1634,peers,Postoperative Transfer of Care to PACU,TOC02
-2156,b4907,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b179,obo:cpo_0000053,"line,bar,none",4,,,b181,0.93,b180,peers,Perioperative Hypothermia,TEMP03
-2165,b4919,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b2968,obo:cpo_0000053,"line,bar,none",11,,,b268,0.9,b267,goal,Low MAP Prevention < 55,BP01
-2166,b4921,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b2780,obo:cpo_0000053,"line,bar,none",5,http://feedbacktailor.org/ftkb#SocialBetter,,b531,0.93,b530,peers,"Myocardial Infarction, High Risk Patients",CARD03
-2167,b4925,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b4878,obo:cpo_0000053,"line,bar,none",2,,,b39,0.9,b55,goal,Avoiding Monitoring Gaps,BP02
-2173,b4933,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b2689,obo:cpo_0000053,"line,bar,none",15,,,b531,0.93,b530,peers,"Myocardial Infarction, High Risk Patients",CARD03
-2174,b4938,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b2171,obo:cpo_0000053,"line,bar,none",15,,,b39,0.9,b55,goal,Avoiding Monitoring Gaps,BP02
-2177,b4943,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b3314,obo:cpo_0000053,"line,bar,none",4,http://feedbacktailor.org/ftkb#GoalBetter,,b428,0.1,b762,goal,Acute Kidney Injury,AKI01
-2178,b4946,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b4948,obo:cpo_0000053,"line,bar,none",1,,,b736,0.93,b735,peers,Escalated High Glucose Treated,GLU05
-2181,b4951,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b2910,obo:cpo_0000053,"line,bar,none",15,,,b59,0.1,b58,goal,Postoperative Nausea or Vomiting Outcome,PONV03b
-2187,b4958,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b4960,obo:cpo_0000053,"line,bar,none",5,,,b107,0.93,b405,peers,Transfusion Management Vigilance,TRAN01
-2190,b4961,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b4964,obo:cpo_0000053,"line,bar,none",1,,,b268,0.9,b267,goal,Low MAP Prevention < 55,BP01
-2192,b4968,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b3260,obo:cpo_0000053,"line,bar,none",14,,,b39,0.93,b38,peers,Avoiding Monitoring Gaps,BP02
-2195,b4973,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1967,obo:cpo_0000053,"line,bar,none",14,http://feedbacktailor.org/ftkb#Worsening,,b422,0.93,b421,peers,"Protective Tidal Volume, 8 mL/kg PBW",PUL02
-2198,b4981,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b3824,obo:cpo_0000053,"line,bar.none",6,http://feedbacktailor.org/ftkb#GoalBetter,,b211,0.05,b210,goal,Avoiding Medication Overdose,MED01
-2202,b4989,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b4075,obo:cpo_0000053,"line,bar,none",14,,,b181,0.1,b393,goal,Perioperative Hypothermia,TEMP03
-2206,b4992,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1606,obo:cpo_0000053,"line,bar.none",6,http://feedbacktailor.org/ftkb#GoalBetter,,b33,0.9,b32,goal,Train of Four Taken,NMB01
-2210,b5000,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b4485,obo:cpo_0000053,"line,bar,none",11,,,b436,0.9,b435,goal,Antibiotic Timing for Cesarean Delivery,ABX01
-2212,b5006,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b3101,obo:cpo_0000053,"line,bar,none",11,,,b190,0.93,b287,peers,Low MAP Prevention < 55,BP01
-2214,b5011,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b3866,obo:cpo_0000053,"line,bar,none",14,,,b436,0.93,b732,peers,Antibiotic Timing for Cesarean Delivery,ABX01
-2215,b5014,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b3656,obo:cpo_0000053,"line,bar,none",1,,,b787,0.93,b789,peers,Postoperative Transfer of Care to ICU,TOC03
-2219,b5020,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b2375,obo:cpo_0000053,"line,bar,none",5,http://feedbacktailor.org/ftkb#SocialBetter,,b181,0.93,b180,peers,Perioperative Hypothermia,TEMP03
-2222,b5025,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b4283,obo:cpo_0000053,"line,bar,none",1,,,b456,0.93,b457,peers,Overtransfusion,TRAN02
-2223,b5027,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b2423,obo:cpo_0000053,"line,bar.none",6,http://feedbacktailor.org/ftkb#GoalBetter,,b428,0.1,b762,goal,Acute Kidney Injury,AKI01
-2227,b5031,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b2955,obo:cpo_0000053,"line,bar,none",15,,,b739,0.93,b740,peers,Minimizing Colloid Use (Non-Cardiac),FLUID01NC
-2232,b5040,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b4488,obo:cpo_0000053,"line,bar,none",5,,,b248,0.93,b395,peers,Postoperative Nausea or Vomiting Outcome,PONV03
-2235,b5045,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1410,obo:cpo_0000053,"line,bar,none",2,,,b181,0.93,b180,peers,Perioperative Hypothermia,TEMP03
-2237,b5050,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b4441,obo:cpo_0000053,"line,bar,none",11,,,b248,0.1,b165,goal,Postoperative Nausea or Vomiting Outcome,PONV03
-2240,b5059,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b2881,obo:cpo_0000053,"line,bar,none",4,http://feedbacktailor.org/ftkb#GoalBetter,,b66,0.9,b65,goal,PONV Prophylaxis: Adults (Old),PONV01
-2243,b5064,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b5066,obo:cpo_0000053,"line,bar,none",4,,,b1041,0.1,b1040,goal,Hypothermia in Cesarean Deliveries,TEMP05
-2246,b5069,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b4825,obo:cpo_0000053,"line,bar,none",1,,,b1972,0.1,b1971,goal,Hypothermia Avoidance in Cardiac Surgery,TEMP06
-2248,b5072,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b3755,obo:cpo_0000053,"line,bar.none",6,,,b50,0.9,b984,goal,SBP < 90 in Cesarean Deliveries,BP04
-2252,b5080,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b160,obo:cpo_0000053,"line,bar,none",2,,,b4,0.9,b161,goal,"Protective Tidal Volume, 10 mL/kg PBW",PUL01
-2253,b5081,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b5084,obo:cpo_0000053,"line,bar.none",6,,,b915,0.93,b1770,peers,"High Glucose Treated, Periop",GLU03
-2255,b5085,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1162,obo:cpo_0000053,"line,bar,none",1,http://feedbacktailor.org/ftkb#SocialBetter,,b531,0.93,b530,peers,"Myocardial Infarction, High Risk Patients",CARD03
-2257,b5088,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b1598,obo:cpo_0000053,"line,bar,none",4,,,b1041,0.93,b1232,peers,Hypothermia in Cesarean Deliveries,TEMP05
-2262,b5095,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b4499,obo:cpo_0000053,"line,bar,none",2,,,b104,0.93,b103,peers,Acute Kidney Injury,AKI01
-2263,b5097,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b2525,obo:cpo_0000053,"line,bar,none",1,http://feedbacktailor.org/ftkb#SocialBetter,,b33,0.93,b635,peers,Train of Four Taken,NMB01
-2264,b5100,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1044,obo:cpo_0000053,"line,bar.none",6,http://feedbacktailor.org/ftkb#GoalBetter,,b531,0.05,b818,goal,"Myocardial Infarction, High Risk Patients",CARD03
-2266,b5105,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b4059,obo:cpo_0000053,"line,bar,none",11,,,b299,0.9,b685,goal,"Low Glucose Treated, Periop",GLU04
-2267,b5107,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b5108,obo:cpo_0000053,"line,bar,none",14,,,b436,0.9,b435,goal,Antibiotic Timing for Cesarean Delivery,ABX01
-2269,b5110,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b3506,obo:cpo_0000053,"line,bar,none",15,,,b277,0.9,b495,goal,Thermoregulation Monitoring - Core Temperature,TEMP02
-2272,b5114,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b4660,obo:cpo_0000053,"line,bar.none",6,http://feedbacktailor.org/ftkb#GoalBetter,,b190,0.9,b189,goal,Low MAP Prevention < 55,BP01
-2277,b5122,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1305,obo:cpo_0000053,"line,bar,none",1,,,b320,0.93,b319,peers,Low Map Prevention < 65,BP03
-2279,b5126,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b4756,obo:cpo_0000053,"line,bar,none",5,,,b244,0.93,b799,peers,Intraoperative Transfer of Care,TOC01
-2280,b5128,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b3257,obo:cpo_0000053,"line,bar,none",4,,,b121,0.93,b120,peers,Thermoregulation Vigilance - Active Warming,TEMP01
-2281,b513,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b514,obo:cpo_0000053,"line,bar.none",6,,,b428,0.93,b427,peers,Acute Kidney Injury,AKI01
-2282,b5132,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1894,obo:cpo_0000053,"line,bar,none",14,http://feedbacktailor.org/ftkb#Worsening,,b149,0.93,b487,peers,PONV Prophylaxis: Pediatrics,PONV04
-2284,b5134,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b4151,obo:cpo_0000053,"line,bar,none",4,http://feedbacktailor.org/ftkb#GoalBetter,,b4,0.9,b161,goal,"Protective Tidal Volume, 10 mL/kg PBW",PUL01
-2287,b5137,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b5138,obo:cpo_0000053,"line,bar,none",1,,,b2151,0.93,b2152,peers,General Anesthesia During Cesarean Deliveries,GA01
-2290,b5140,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b5141,obo:cpo_0000053,"line,bar,none",5,,,b436,0.93,b732,peers,Antibiotic Timing for Cesarean Delivery,ABX01
-2292,b5143,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b798,obo:cpo_0000053,"line,bar,none",4,,,b244,0.93,b799,peers,Intraoperative Transfer of Care,TOC01
-2293,b5144,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1100,obo:cpo_0000053,"line,bar,none",14,http://feedbacktailor.org/ftkb#Worsening,,b121,0.93,b120,peers,Thermoregulation Vigilance - Active Warming,TEMP01
-2295,b5147,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b2616,obo:cpo_0000053,"line,bar,none",2,,,b59,0.1,b58,goal,Postoperative Nausea or Vomiting Outcome,PONV03b
-2297,b5150,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b5152,obo:cpo_0000053,"line,bar,none",1,,,b436,0.9,b435,goal,Antibiotic Timing for Cesarean Delivery,ABX01
-2299,b5153,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1505,obo:cpo_0000053,"line,bar.none",6,http://feedbacktailor.org/ftkb#GoalBetter,,b59,0.1,b58,goal,Postoperative Nausea or Vomiting Outcome,PONV03b
-2302,b5156,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1526,obo:cpo_0000053,"line,bar,none",11,,,b296,0.9,b1527,goal,"High Glucose Treated, Intraop",GLU01
-2303,b5159,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b3220,obo:cpo_0000053,"line,bar,none",1,,,b320,0.9,b527,goal,Low Map Prevention < 65,BP03
-2306,b5166,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1086,obo:cpo_0000053,"line,bar.none",6,,,b155,0.93,b154,peers,"Multimodal Analgesia, Pediatrics",PAIN01
-2308,b5168,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b2334,obo:cpo_0000053,"line,bar.none",6,http://feedbacktailor.org/ftkb#GoalBetter,,b121,0.9,b262,goal,Thermoregulation Vigilance - Active Warming,TEMP01
-2314,b5178,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b3031,obo:cpo_0000053,"line,bar,none",5,,,b11,0.9,b10,goal,Low Fresh Gas Flow,SUS01
-2316,b5183,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1536,obo:cpo_0000053,"line,bar,none",14,,,b39,0.9,b55,goal,Avoiding Monitoring Gaps,BP02
-2319,b5188,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b5189,obo:cpo_0000053,"line,bar.none",6,,,b244,0.93,b799,peers,Intraoperative Transfer of Care,TOC01
-2322,b5194,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1087,obo:cpo_0000053,"line,bar,none",2,,,b422,0.9,b796,goal,"Protective Tidal Volume, 8 mL/kg PBW",PUL02
-2326,b5199,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b2938,obo:cpo_0000053,"line,bar,none",14,http://feedbacktailor.org/ftkb#Worsening,,b422,0.9,b796,goal,"Protective Tidal Volume, 8 mL/kg PBW",PUL02
-2328,b5204,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b3503,obo:cpo_0000053,"line,bar,none",4,,,b149,0.93,b487,peers,PONV Prophylaxis: Pediatrics,PONV04
-2331,b5208,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b785,obo:cpo_0000053,"line,bar,none",5,,,b787,0.9,b786,goal,Postoperative Transfer of Care to ICU,TOC03
-2336,b5217,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b4029,obo:cpo_0000053,"line,bar,none",4,,,b589,,b588,peers,General anesthesia after neuraxial in Cesarean Deliveries,GA02
-2338,b5224,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b2314,obo:cpo_0000053,"line,bar,none",4,,,b2151,0.93,b2152,peers,General Anesthesia During Cesarean Deliveries,GA01
-2339,b5226,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b1231,obo:cpo_0000053,"line,bar,none",5,,,b1041,0.93,b1232,peers,Hypothermia in Cesarean Deliveries,TEMP05
-2340,b5228,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b4850,obo:cpo_0000053,"line,bar.none",6,,,b2151,0.93,b2152,peers,General Anesthesia During Cesarean Deliveries,GA01
-2341,b5230,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b5232,obo:cpo_0000053,"line,bar,none",4,,,b787,0.93,b789,peers,Postoperative Transfer of Care to ICU,TOC03
-2345,b5238,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b1292,obo:cpo_0000053,"line,bar,none",4,,,b268,0.9,b267,goal,Low MAP Prevention < 55,BP01
-2346,b5241,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b2433,obo:cpo_0000053,"line,bar,none",2,,,b299,0.9,b685,goal,"Low Glucose Treated, Periop",GLU04
-2348,b5244,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b4859,obo:cpo_0000053,"line,bar,none",5,,,b181,0.1,b393,goal,Perioperative Hypothermia,TEMP03
-2350,b5249,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1933,obo:cpo_0000053,"line,bar,none",2,,,b299,0.93,b298,peers,"Low Glucose Treated, Periop",GLU04
-2352,b5254,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b2592,obo:cpo_0000053,"line,bar,none",15,,,b531,0.05,b818,goal,"Myocardial Infarction, High Risk Patients",CARD03
-2355,b5257,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b5258,obo:cpo_0000053,"line,bar,none",4,,,b456,0.1,b458,goal,Overtransfusion,TRAN02
-2358,b5260,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1462,obo:cpo_0000053,"line,bar,none",2,http://feedbacktailor.org/ftkb#SocialWorse,,b207,0.93,b206,peers,PONV Prophylaxis: Adults,PONV05
-2360,b5265,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b2376,obo:cpo_0000053,"line,bar,none",1,,,b248,0.1,b165,goal,Postoperative Nausea or Vomiting Outcome,PONV03
-2361,b5266,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b2464,obo:cpo_0000053,"line,bar,none",2,,,b33,0.93,b635,peers,Train of Four Taken,NMB01
-2363,b5270,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1090,obo:cpo_0000053,"line,bar,none",2,,,b277,0.93,b276,peers,Thermoregulation Monitoring - Core Temperature,TEMP02
-2365,b5272,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b5155,obo:cpo_0000053,"line,bar,none",14,,,b1041,0.1,b1040,goal,Hypothermia in Cesarean Deliveries,TEMP05
-2366,b5275,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b2435,obo:cpo_0000053,"line,bar,none",11,,,b2151,0.93,b2152,peers,General Anesthesia During Cesarean Deliveries,GA01
-2368,b5277,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1472,obo:cpo_0000053,"line,bar,none",2,http://feedbacktailor.org/ftkb#SocialWorse,,b149,0.93,b487,peers,PONV Prophylaxis: Pediatrics,PONV04
-2369,b5280,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b4628,obo:cpo_0000053,"line,bar,none",15,,,b436,0.9,b435,goal,Antibiotic Timing for Cesarean Delivery,ABX01
-2370,b5283,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1809,obo:cpo_0000053,"line,bar,none",2,,,b244,0.93,b799,peers,Intraoperative Transfer of Care,TOC01
-2371,b5286,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b1235,obo:cpo_0000053,"line,bar,none",5,,,b277,0.9,b495,goal,Thermoregulation Monitoring - Core Temperature,TEMP02
-2372,b5287,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1088,obo:cpo_0000053,"line,bar,none",2,http://feedbacktailor.org/ftkb#SocialWorse,,b248,0.93,b395,peers,Postoperative Nausea or Vomiting Outcome,PONV03
-2373,b5289,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b2004,obo:cpo_0000053,"line,bar,none",14,http://feedbacktailor.org/ftkb#Worsening,,b155,0.93,b154,peers,"Multimodal Analgesia, Pediatrics",PAIN01
-2375,b5290,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b5294,obo:cpo_0000053,"line,bar,none",11,,,b1972,0.1,b1971,goal,Hypothermia Avoidance in Cardiac Surgery,TEMP06
-2377,b5295,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b4915,obo:cpo_0000053,"line,bar,none",14,,,b787,0.93,b789,peers,Postoperative Transfer of Care to ICU,TOC03
-2379,b5298,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b1500,obo:cpo_0000053,"line,bar,none",4,http://feedbacktailor.org/ftkb#GoalBetter,,b7,0.05,b6,goal,Myocardial Infarction,CARD02
-2380,b5299,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b1596,obo:cpo_0000053,"line,bar,none",5,,,b1194,0.9,b1193,goal,Postoperative Transfer of Care to PACU,TOC02
-2381,b5301,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b2150,obo:cpo_0000053,"line,bar,none",15,http://feedbacktailor.org/ftkb#Worsening,,b33,0.93,b635,peers,Train of Four Taken,NMB01
-2384,b5306,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b5079,obo:cpo_0000053,"line,bar,none",14,,,b277,0.9,b495,goal,Thermoregulation Monitoring - Core Temperature,TEMP02
-2389,b5312,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b2029,obo:cpo_0000053,"line,bar,none",15,,,b7,0.05,b6,goal,Myocardial Infarction,CARD02
-2390,b5313,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b2633,obo:cpo_0000053,"line,bar,none",14,,,b248,0.1,b165,goal,Postoperative Nausea or Vomiting Outcome,PONV03
-2392,b5317,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b1768,obo:cpo_0000053,"line,bar,none",5,http://feedbacktailor.org/ftkb#SocialBetter,http://feedbacktailor.org/ftkb#SocialGain,b4,0.93,b3,peers,"Protective Tidal Volume, 10 mL/kg PBW",PUL01
-2393,b5319,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b2176,obo:cpo_0000053,"line,bar,none",4,,,b244,0.9,b243,goal,Intraoperative Transfer of Care,TOC01
-2394,b532,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b534,obo:cpo_0000053,"line,bar,none",4,,,b422,0.9,b796,goal,"Protective Tidal Volume, 8 mL/kg PBW",PUL02
-2395,b5321,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b3595,obo:cpo_0000053,"line,bar.none",6,,,b422,0.9,b796,goal,"Protective Tidal Volume, 8 mL/kg PBW",PUL02
-2397,b5325,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b3045,obo:cpo_0000053,"line,bar.none",6,,,b1707,0.93,b1706,peers,Administration of PEEP,PUL03
-2399,b5328,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b4899,obo:cpo_0000053,"line,bar,none",5,,,b1110,0.9,b1109,goal,"Low Glucose Treated, Intraop",GLU02
-2400,b5329,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b3680,obo:cpo_0000053,"line,bar,none",1,,,b121,0.9,b262,goal,Thermoregulation Vigilance - Active Warming,TEMP01
-2402,b5331,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b2149,obo:cpo_0000053,"line,bar,none",15,,,b1110,0.9,b1109,goal,"Low Glucose Treated, Intraop",GLU02
-2403,b5333,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b4813,obo:cpo_0000053,"line,bar,none",14,,,b158,0.93,b157,peers,30 Day Post-Op In-Hospital Mortality Rate,MORT01
-2405,b5335,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b3615,obo:cpo_0000053,"line,bar,none",4,,,b107,0.9,b106,goal,Transfusion Management Vigilance,TRAN01
-2411,b5345,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b5346,obo:cpo_0000053,"line,bar,none",2,,,b1707,0.93,b1706,peers,Administration of PEEP,PUL03
-2413,b5347,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b3556,obo:cpo_0000053,"line,bar,none",4,,,b736,0.9,b745,goal,Escalated High Glucose Treated,GLU05
-2414,b5348,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b3137,obo:cpo_0000053,"line,bar,none",2,,,b107,0.9,b106,goal,Transfusion Management Vigilance,TRAN01
-2415,b5349,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b5351,obo:cpo_0000053,"line,bar,none",1,,,b1194,0.93,b1634,peers,Postoperative Transfer of Care to PACU,TOC02
-2417,b5353,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1519,obo:cpo_0000053,"line,bar,none",14,,,b736,0.9,b745,goal,Escalated High Glucose Treated,GLU05
-2419,b5356,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b791,obo:cpo_0000053,"line,bar,none",1,,,b436,0.93,b732,peers,Antibiotic Timing for Cesarean Delivery,ABX01
-2420,b5358,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b1941,obo:cpo_0000053,"line,bar,none",4,,,b248,0.93,b395,peers,Postoperative Nausea or Vomiting Outcome,PONV03
-2422,b5362,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b4950,obo:cpo_0000053,"line,bar,none",14,,,b1707,0.93,b1706,peers,Administration of PEEP,PUL03
-2423,b5363,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b4985,obo:cpo_0000053,"line,bar,none",4,,,b7,0.93,b454,peers,Myocardial Infarction,CARD02
-2424,b5364,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1469,obo:cpo_0000053,"line,bar,none",11,,,b204,0.93,b203,peers,Minimizing Colloid Use (Cardiac),FLUID01C
-2426,b5366,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b1234,obo:cpo_0000053,"line,bar,none",5,,,b149,0.9,b148,goal,PONV Prophylaxis: Pediatrics,PONV04
-2427,b5367,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1976,obo:cpo_0000053,"line,bar.none",6,,,b787,0.9,b786,goal,Postoperative Transfer of Care to ICU,TOC03
-2429,b5370,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1336,obo:cpo_0000053,"line,bar,none",14,,,b54,0.9,b53,goal,Pediatric Temperature Management,TEMP04
-2430,b5371,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b2682,obo:cpo_0000053,"line,bar,none",14,,,b59,0.1,b58,goal,Postoperative Nausea or Vomiting Outcome,PONV03b
-2432,b5375,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b3777,obo:cpo_0000053,"line,bar.none",6,,,b207,0.93,b206,peers,PONV Prophylaxis: Adults,PONV05
-2433,b5379,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b1709,obo:cpo_0000053,"line,bar,none",15,,,b299,0.9,b685,goal,"Low Glucose Treated, Periop",GLU04
-2437,b5388,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b4097,obo:cpo_0000053,"line,bar.none",6,,,b107,0.9,b106,goal,Transfusion Management Vigilance,TRAN01
-2439,b5390,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b4460,obo:cpo_0000053,"line,bar,none",15,,,b436,0.93,b732,peers,Antibiotic Timing for Cesarean Delivery,ABX01
-2440,b5391,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1802,obo:cpo_0000053,"line,bar,none",14,,,b169,0.93,b168,peers,Multimodal Analgesia,PAIN02
-2443,b5395,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1381,obo:cpo_0000053,"line,bar.none",6,http://feedbacktailor.org/ftkb#GoalBetter,,b181,0.1,b393,goal,Perioperative Hypothermia,TEMP03
-2444,b5399,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1350,obo:cpo_0000053,"line,bar,none",11,,,b7,0.93,b454,peers,Myocardial Infarction,CARD02
-2446,b5400,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b4464,obo:cpo_0000053,"line,bar,none",5,,,b422,0.9,b796,goal,"Protective Tidal Volume, 8 mL/kg PBW",PUL02
-2450,b5407,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b3512,obo:cpo_0000053,"line,bar,none",2,,,b320,0.9,b527,goal,Low Map Prevention < 65,BP03
-2451,b5408,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b4713,obo:cpo_0000053,"line,bar,none",11,,,b739,0.93,b740,peers,Minimizing Colloid Use (Non-Cardiac),FLUID01NC
-2454,b5411,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b3633,obo:cpo_0000053,"line,bar,none",1,,,b149,0.93,b487,peers,PONV Prophylaxis: Pediatrics,PONV04
-2455,b5412,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b4868,obo:cpo_0000053,"line,bar,none",1,http://feedbacktailor.org/ftkb#SocialBetter,,b299,0.93,b298,peers,"Low Glucose Treated, Periop",GLU04
-2456,b5413,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b177,obo:cpo_0000053,"line,bar,none",14,,,b66,0.93,b178,peers,PONV Prophylaxis: Adults (Old),PONV01
-2457,b5414,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b3818,obo:cpo_0000053,"line,bar,none",15,,,b207,0.93,b206,peers,PONV Prophylaxis: Adults,PONV05
-2458,b5416,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b2110,obo:cpo_0000053,"line,bar.none",6,,,b531,0.93,b530,peers,"Myocardial Infarction, High Risk Patients",CARD03
-2460,b5418,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1130,obo:cpo_0000053,"line,bar,none",11,,,b211,0.05,b210,goal,Avoiding Medication Overdose,MED01
-2461,b5419,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b3726,obo:cpo_0000053,"line,bar,none",15,http://feedbacktailor.org/ftkb#Worsening,,b422,0.9,b796,goal,"Protective Tidal Volume, 8 mL/kg PBW",PUL02
-2466,b5424,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1889,obo:cpo_0000053,"line,bar.none",6,http://feedbacktailor.org/ftkb#GoalBetter,,b66,0.9,b65,goal,PONV Prophylaxis: Adults (Old),PONV01
-2467,b5426,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b5243,obo:cpo_0000053,"line,bar,none",14,,,b1110,0.93,b3911,peers,"Low Glucose Treated, Intraop",GLU02
-2468,b5428,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b4541,obo:cpo_0000053,"line,bar,none",14,,,b268,0.93,b1884,peers,Low MAP Prevention < 55,BP01
-2471,b5432,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b3147,obo:cpo_0000053,"line,bar.none",6,http://feedbacktailor.org/ftkb#GoalBetter,,b39,0.9,b55,goal,Avoiding Monitoring Gaps,BP02
-2472,b5434,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b847,obo:cpo_0000053,"line,bar,none",4,,,b436,0.93,b732,peers,Antibiotic Timing for Cesarean Delivery,ABX01
-2473,b5439,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b2604,obo:cpo_0000053,"line,bar,none",2,http://feedbacktailor.org/ftkb#SocialWorse,,b422,0.93,b421,peers,"Protective Tidal Volume, 8 mL/kg PBW",PUL02
-2477,b5442,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1356,obo:cpo_0000053,"line,bar,none",1,http://feedbacktailor.org/ftkb#SocialBetter,,b190,0.93,b287,peers,Low MAP Prevention < 55,BP01
-2478,b5443,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b109,obo:cpo_0000053,"line,bar,none",5,,,b54,0.93,b110,peers,Pediatric Temperature Management,TEMP04
-2479,b5446,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1375,obo:cpo_0000053,"line,bar.none",6,,,b11,0.93,b88,peers,Low Fresh Gas Flow,SUS01
-2480,b5449,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b2212,obo:cpo_0000053,"line,bar,none",5,,,b296,0.93,b295,peers,"High Glucose Treated, Intraop",GLU01
-2481,b5451,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b434,obo:cpo_0000053,"line,bar,none",2,,,b436,0.9,b435,goal,Antibiotic Timing for Cesarean Delivery,ABX01
-2482,b5453,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b1245,obo:cpo_0000053,"line,bar,none",4,,,b54,0.9,b53,goal,Pediatric Temperature Management,TEMP04
-2483,b5454,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b4339,obo:cpo_0000053,"line,bar,none",11,,,b1110,0.93,b3911,peers,"Low Glucose Treated, Intraop",GLU02
-2484,b5455,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b2331,obo:cpo_0000053,"line,bar,none",15,,,b456,0.1,b458,goal,Overtransfusion,TRAN02
-2486,b5459,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b734,obo:cpo_0000053,"line,bar,none",11,,,b736,0.93,b735,peers,Escalated High Glucose Treated,GLU05
-2487,b5460,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1698,obo:cpo_0000053,"line,bar,none",11,,,b149,0.93,b487,peers,PONV Prophylaxis: Pediatrics,PONV04
-2488,b5461,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b5463,obo:cpo_0000053,"line,bar,none",2,,,b244,0.9,b243,goal,Intraoperative Transfer of Care,TOC01
-2490,b5464,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b5214,obo:cpo_0000053,"line,bar,none",1,,,b1110,0.9,b1109,goal,"Low Glucose Treated, Intraop",GLU02
-2491,b5466,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1913,obo:cpo_0000053,"line,bar,none",2,,,b1110,0.9,b1109,goal,"Low Glucose Treated, Intraop",GLU02
-2492,b5467,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b4469,obo:cpo_0000053,"line,bar,none",14,,,b66,0.9,b65,goal,PONV Prophylaxis: Adults (Old),PONV01
-2495,b5472,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b5187,obo:cpo_0000053,"line,bar,none",5,,,b268,0.93,b1884,peers,Low MAP Prevention < 55,BP01
-2496,b5475,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b5441,obo:cpo_0000053,"line,bar,none",1,,,b104,0.1,b411,goal,Acute Kidney Injury,AKI01
-2497,b5476,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b2865,obo:cpo_0000053,"line,bar,none",1,,,b107,0.93,b405,peers,Transfusion Management Vigilance,TRAN01
-2498,b5486,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1357,obo:cpo_0000053,"line,bar,none",2,,,b248,0.1,b165,goal,Postoperative Nausea or Vomiting Outcome,PONV03
-2499,b5487,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b2040,obo:cpo_0000053,"line,bar,none",5,,,b244,0.9,b243,goal,Intraoperative Transfer of Care,TOC01
-2500,b5488,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b2051,obo:cpo_0000053,"line,bar,none",11,,,b54,0.93,b110,peers,Pediatric Temperature Management,TEMP04
-2501,b5489,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1089,obo:cpo_0000053,"line,bar,none",2,http://feedbacktailor.org/ftkb#SocialWorse,,b62,0.93,b61,peers,PONV Prophylaxis (Old): Pediatrics,PONV02
-2503,b5490,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b3088,obo:cpo_0000053,"line,bar,none",1,,,b277,0.9,b495,goal,Thermoregulation Monitoring - Core Temperature,TEMP02
-2504,b5491,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b2348,obo:cpo_0000053,"line,bar,none",4,,,b54,0.93,b110,peers,Pediatric Temperature Management,TEMP04
-2505,b5492,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b2293,obo:cpo_0000053,"line,bar,none",2,,,b456,0.1,b458,goal,Overtransfusion,TRAN02
-2506,b5493,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b5422,obo:cpo_0000053,"line,bar,none",15,,,b1041,0.1,b1040,goal,Hypothermia in Cesarean Deliveries,TEMP05
-2507,b5494,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b5193,obo:cpo_0000053,"line,bar,none",1,,,b1110,0.93,b3911,peers,"Low Glucose Treated, Intraop",GLU02
-2508,b5495,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b4115,obo:cpo_0000053,"line,bar.none",6,,,b1194,0.93,b1634,peers,Postoperative Transfer of Care to PACU,TOC02
-2509,b5496,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b266,obo:cpo_0000053,"line,bar,none",5,,,b268,0.9,b267,goal,Low MAP Prevention < 55,BP01
-2510,b5497,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1541,obo:cpo_0000053,"line,bar,none",1,,,b54,0.9,b53,goal,Pediatric Temperature Management,TEMP04
-2511,b5498,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b5092,obo:cpo_0000053,"line,bar,none",5,,,b158,0.93,b157,peers,30 Day Post-Op In-Hospital Mortality Rate,MORT01
-2512,b5499,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b4269,obo:cpo_0000053,"line,bar,none",4,,,b296,0.93,b295,peers,"High Glucose Treated, Intraop",GLU01
-2513,b550,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b554,obo:cpo_0000053,"line,bar,none",14,,,b736,0.93,b735,peers,Escalated High Glucose Treated,GLU05
-2514,b5500,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b3575,obo:cpo_0000053,"line,bar,none",15,,,b915,0.93,b1770,peers,"High Glucose Treated, Periop",GLU03
-2515,b5501,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b2196,obo:cpo_0000053,"line,bar,none",4,,,b428,0.93,b427,peers,Acute Kidney Injury,AKI01
-2516,b5502,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b3927,obo:cpo_0000053,"line,bar,none",11,,,b1707,0.93,b1706,peers,Administration of PEEP,PUL03
-2517,b5503,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b3783,obo:cpo_0000053,"line,bar,none",11,,,b422,0.93,b421,peers,"Protective Tidal Volume, 8 mL/kg PBW",PUL02
-2518,b5504,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b2767,obo:cpo_0000053,"line,bar,none",1,,,b33,0.9,b32,goal,Train of Four Taken,NMB01
-2519,b5505,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b2632,obo:cpo_0000053,"line,bar.none",6,,,b244,0.9,b243,goal,Intraoperative Transfer of Care,TOC01
-2520,b5506,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b2876,obo:cpo_0000053,"line,bar,none",2,,,b739,0.93,b740,peers,Minimizing Colloid Use (Non-Cardiac),FLUID01NC
-2521,b5507,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b2183,obo:cpo_0000053,"line,bar.none",6,,,b115,0.93,b114,peers,Reversal Administered,NMB02
-2522,b5508,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b5068,obo:cpo_0000053,"line,bar,none",4,,,b62,0.93,b61,peers,PONV Prophylaxis (Old): Pediatrics,PONV02
-2523,b5509,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b1113,obo:cpo_0000053,"line,bar,none",4,http://feedbacktailor.org/ftkb#GoalBetter,,b11,0.9,b10,goal,Low Fresh Gas Flow,SUS01
-2524,b5510,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b2023,obo:cpo_0000053,"line,bar,none",14,http://feedbacktailor.org/ftkb#Worsening,,b33,0.9,b32,goal,Train of Four Taken,NMB01
-2525,b5511,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b4971,obo:cpo_0000053,"line,bar,none",2,,,b1194,0.9,b1193,goal,Postoperative Transfer of Care to PACU,TOC02
-2526,b5512,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b345,obo:cpo_0000053,"line,bar,none",14,,,b244,0.9,b243,goal,Intraoperative Transfer of Care,TOC01
-2527,b5513,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b465,obo:cpo_0000053,"line,bar,none",14,,,b268,0.9,b267,goal,Low MAP Prevention < 55,BP01
-2528,b5514,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b5536,obo:cpo_0000053,"line,bar,none",5,,,b456,0.93,b457,peers,Overtransfusion,TRAN02
-2529,b5515,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1116,obo:cpo_0000053,"line,bar,none",1,,,b149,0.9,b148,goal,PONV Prophylaxis: Pediatrics,PONV04
-2530,b5516,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b1083,obo:cpo_0000053,"line,bar,none",5,,,b66,0.9,b65,goal,PONV Prophylaxis: Adults (Old),PONV01
-2531,b5517,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b4610,obo:cpo_0000053,"line,bar,none",11,,,b59,0.1,b58,goal,Postoperative Nausea or Vomiting Outcome,PONV03b
-2532,b5518,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b3029,obo:cpo_0000053,"line,bar,none",1,,,b11,0.9,b10,goal,Low Fresh Gas Flow,SUS01
-2533,b5519,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b3892,obo:cpo_0000053,"line,bar.none",6,http://feedbacktailor.org/ftkb#GoalBetter,,b11,0.9,b10,goal,Low Fresh Gas Flow,SUS01
-2534,b5520,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b4679,obo:cpo_0000053,"line,bar,none",14,,,b589,,b588,peers,General anesthesia after neuraxial in Cesarean Deliveries,GA02
-2535,b5521,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b297,obo:cpo_0000053,"line,bar,none",15,,,b299,0.93,b298,peers,"Low Glucose Treated, Periop",GLU04
-2536,b5522,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b3093,obo:cpo_0000053,"line,bar,none",11,,,b190,0.9,b189,goal,Low MAP Prevention < 55,BP01
-2537,b5523,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1108,obo:cpo_0000053,"line,bar,none",14,,,b1110,0.9,b1109,goal,"Low Glucose Treated, Intraop",GLU02
-2538,b5524,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b1031,obo:cpo_0000053,"line,bar,none",5,http://feedbacktailor.org/ftkb#SocialBetter,,b115,0.93,b114,peers,Reversal Administered,NMB02
-2539,b5525,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b1611,obo:cpo_0000053,"line,bar,none",4,,,b531,0.93,b530,peers,"Myocardial Infarction, High Risk Patients",CARD03
-2540,b5526,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b4099,obo:cpo_0000053,"line,bar,none",4,,,b1110,0.9,b1109,goal,"Low Glucose Treated, Intraop",GLU02
-2541,b5527,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b2312,obo:cpo_0000053,"line,bar,none",15,http://feedbacktailor.org/ftkb#Worsening,,b428,0.1,b762,goal,Acute Kidney Injury,AKI01
-2542,b5528,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1324,obo:cpo_0000053,"line,bar.none",6,,,b4,0.93,b3,peers,"Protective Tidal Volume, 10 mL/kg PBW",PUL01
-2543,b5529,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b4306,obo:cpo_0000053,"line,bar,none",15,,,b50,0.93,b49,peers,SBP < 90 in Cesarean Deliveries,BP04
-2544,b5530,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b2215,obo:cpo_0000053,"line,bar,none",2,,,b121,0.9,b262,goal,Thermoregulation Vigilance - Active Warming,TEMP01
-2545,b5531,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b3516,obo:cpo_0000053,"line,bar,none",2,,,b207,0.9,b698,goal,PONV Prophylaxis: Adults,PONV05
-2546,b5532,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b5540,obo:cpo_0000053,"line,bar,none",2,,,b736,0.9,b745,goal,Escalated High Glucose Treated,GLU05
-2547,b5533,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b5253,obo:cpo_0000053,"line,bar,none",2,,,b50,0.93,b49,peers,SBP < 90 in Cesarean Deliveries,BP04
-2548,b5534,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b1254,obo:cpo_0000053,"line,bar,none",4,,,b207,0.93,b206,peers,PONV Prophylaxis: Adults,PONV05
-2559,b560,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b563,obo:cpo_0000053,"line,bar,none",2,,,b296,0.9,b1527,goal,"High Glucose Treated, Intraop",GLU01
-2561,b565,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b569,obo:cpo_0000053,"line,bar,none",5,,,b1972,0.93,b2026,peers,Hypothermia Avoidance in Cardiac Surgery,TEMP06
-2564,b572,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b573,obo:cpo_0000053,"line,bar,none",15,,,b736,0.9,b745,goal,Escalated High Glucose Treated,GLU05
-2572,b591,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b596,obo:cpo_0000053,"line,bar.none",6,,,b736,0.9,b745,goal,Escalated High Glucose Treated,GLU05
-2578,b603,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b604,obo:cpo_0000053,"line,bar,none",5,http://feedbacktailor.org/ftkb#SocialBetter,,b66,0.93,b178,peers,PONV Prophylaxis: Adults (Old),PONV01
-2585,b617,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b618,obo:cpo_0000053,"line,bar,none",1,,,b50,0.9,b984,goal,SBP < 90 in Cesarean Deliveries,BP04
-2587,b622,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b624,obo:cpo_0000053,"line,bar,none",15,,,b244,0.9,b243,goal,Intraoperative Transfer of Care,TOC01
-2595,b641,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b642,obo:cpo_0000053,"line,bar,none",15,http://feedbacktailor.org/ftkb#Worsening,,b62,0.93,b61,peers,PONV Prophylaxis (Old): Pediatrics,PONV02
-2600,b650,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b652,obo:cpo_0000053,"line,bar,none",1,,,b248,0.93,b395,peers,Postoperative Nausea or Vomiting Outcome,PONV03
-2606,b659,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b286,obo:cpo_0000053,"line,bar,none",4,,,b190,0.93,b287,peers,Low MAP Prevention < 55,BP01
-2612,b67,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b70,obo:cpo_0000053,"line,bar.none",6,,,b456,0.1,b458,goal,Overtransfusion,TRAN02
-2613,b673,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b674,obo:cpo_0000053,"line,bar,none",1,,,b422,0.93,b421,peers,"Protective Tidal Volume, 8 mL/kg PBW",PUL02
-2623,b699,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b700,obo:cpo_0000053,"line,bar,none",15,,,b4,0.9,b161,goal,"Protective Tidal Volume, 10 mL/kg PBW",PUL01
-2634,b713,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b714,obo:cpo_0000053,"line,bar.none",6,,,b149,0.9,b148,goal,PONV Prophylaxis: Pediatrics,PONV04
-2641,b725,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b727,obo:cpo_0000053,"line,bar,none",2,,,b104,0.1,b411,goal,Acute Kidney Injury,AKI01
-2645,b74,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b78,obo:cpo_0000053,"line,bar,none",14,,,b320,0.9,b527,goal,Low Map Prevention < 65,BP03
-2649,b746,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b586,obo:cpo_0000053,"line,bar,none",11,,,b149,0.9,b148,goal,PONV Prophylaxis: Pediatrics,PONV04
-2666,b780,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b783,obo:cpo_0000053,"line,bar,none",2,,,b736,0.93,b735,peers,Escalated High Glucose Treated,GLU05
-2678,b808,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b810,obo:cpo_0000053,"line,bar,none",4,http://feedbacktailor.org/ftkb#GoalBetter,,b190,0.9,b189,goal,Low MAP Prevention < 55,BP01
-2687,b820,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b822,obo:cpo_0000053,"line,bar,none",1,,,b39,0.9,b55,goal,Avoiding Monitoring Gaps,BP02
-2694,b831,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b832,obo:cpo_0000053,"line,bar,none",4,,,b915,0.9,b914,goal,"High Glucose Treated, Periop",GLU03
-2702,b852,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b855,obo:cpo_0000053,"line,bar,none",15,,,b787,0.93,b789,peers,Postoperative Transfer of Care to ICU,TOC03
-2705,b862,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b865,obo:cpo_0000053,"line,bar,none",5,,,b190,0.9,b189,goal,Low MAP Prevention < 55,BP01
-2712,b875,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b879,obo:cpo_0000053,"line,bar.none",6,,,b436,0.9,b435,goal,Antibiotic Timing for Cesarean Delivery,ABX01
-2717,b886,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b888,obo:cpo_0000053,"line,bar,none",1,,,b181,0.1,b393,goal,Perioperative Hypothermia,TEMP03
-2720,b89,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b91,obo:cpo_0000053,"line,bar,none",15,,,b1194,0.9,b1193,goal,Postoperative Transfer of Care to PACU,TOC02
-2734,b916,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b897,obo:cpo_0000053,"line,bar,none",2,http://feedbacktailor.org/ftkb#SocialWorse,,b54,0.93,b110,peers,Pediatric Temperature Management,TEMP04
-2739,b925,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b926,obo:cpo_0000053,"line,bar,none",4,,,b33,0.93,b635,peers,Train of Four Taken,NMB01
-2744,b935,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b937,obo:cpo_0000053,"line,bar.none",6,http://feedbacktailor.org/ftkb#GoalBetter,,b277,0.9,b495,goal,Thermoregulation Monitoring - Core Temperature,TEMP02
-2749,b945,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b543,obo:cpo_0000053,"line,bar,none",14,,,b181,0.93,b180,peers,Perioperative Hypothermia,TEMP03
-2752,b95,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b96,obo:cpo_0000053,"line,bar,none",11,,,b915,0.9,b914,goal,"High Glucose Treated, Periop",GLU03
-2756,b959,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b167,obo:cpo_0000053,"line,bar,none",5,,,b169,0.93,b168,peers,Multimodal Analgesia,PAIN02
-2762,b974,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b975,obo:cpo_0000053,"line,bar.none",6,,,b299,0.93,b298,peers,"Low Glucose Treated, Periop",GLU04
-2767,b986,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b987,obo:cpo_0000053,"line,bar.none",6,,,b104,0.93,b103,peers,Acute Kidney Injury,AKI01
+,id,slowmo:AncestorPerformer{Literal},slowmo:AncestorTemplate{Literal},disposition,reference_values,rdf:type{URIRef},psdo:PerformanceSummaryDisplay{Literal},psdo:PerformanceSummaryTextualEntity{Literal},RegardingMeasure,comparison_value,comparison_id,name,title,Measure_Name
+2,b1002,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b1004,obo:cpo_0000053,"line,bar,none",4,b8,1.4,b7,peers,Avoiding Monitoring Gaps,BP02
+12,b1016,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b1017,obo:cpo_0000053,"line,bar,none",15,b11,0.93,b208,peers,"Myocardial Infarction, High Risk Patients",CARD03
+15,b102,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b104,obo:cpo_0000053,"line,bar,none",5,b8,0.9,b42,goal,Avoiding Monitoring Gaps,BP02
+21,b1027,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1031,obo:cpo_0000053,"line,bar,none",14,b35,0.05,b94,goal,Myocardial Infarction,CARD02
+24,b1035,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1036,obo:cpo_0000053,"line,bar,none",11,b68,0.93,b67,peers,Minimizing Colloid Use (Cardiac),FLUID01C
+30,b1044,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1045,obo:cpo_0000053,"line,bar,none",1,b8,1.4,b7,peers,Avoiding Monitoring Gaps,BP02
+32,b1048,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1049,obo:cpo_0000053,"line,bar,none",11,b47,0.93,b51,peers,Acute Kidney Injury,AKI01
+39,b1057,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1006,obo:cpo_0000053,"line,bar.none",6,b14,1.25,b13,goal,Low MAP Prevention < 55,BP01
+41,b1062,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1013,obo:cpo_0000053,"line,bar,none",2,b35,0.93,b34,peers,Myocardial Infarction,CARD02
+44,b1066,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b649,obo:cpo_0000053,"line,bar.none",6,b308,0.93,b36,peers,Minimizing Colloid Use (Non-Cardiac),FLUID01NC
+48,b1075,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b1077,obo:cpo_0000053,"line,bar,none",15,b308,0.93,b36,peers,Minimizing Colloid Use (Non-Cardiac),FLUID01NC
+50,b1078,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1033,obo:cpo_0000053,"line,bar,none",11,b47,0.1,b46,goal,Acute Kidney Injury,AKI01
+57,b1097,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1065,obo:cpo_0000053,"line,bar.none",6,b35,0.05,b94,goal,Myocardial Infarction,CARD02
+61,b1105,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1107,obo:cpo_0000053,"line,bar,none",11,b14,1.25,b13,goal,Low MAP Prevention < 55,BP01
+64,b1118,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1120,obo:cpo_0000053,"line,bar,none",1,b308,0.93,b36,peers,Minimizing Colloid Use (Non-Cardiac),FLUID01NC
+68,b1122,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b609,obo:cpo_0000053,"line,bar,none",15,b2,1.2,b1,peers,SBP < 90 in Cesarean Deliveries,BP04
+69,b1123,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b622,obo:cpo_0000053,"line,bar,none",4,b35,0.93,b34,peers,Myocardial Infarction,CARD02
+72,b113,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b115,obo:cpo_0000053,"line,bar,none",1,b2,0.9,b38,goal,SBP < 90 in Cesarean Deliveries,BP04
+74,b1133,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1134,obo:cpo_0000053,"line,bar,none",11,b11,0.05,b10,goal,"Myocardial Infarction, High Risk Patients",CARD03
+76,b1136,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1072,obo:cpo_0000053,"line,bar,none",14,b87,0.9,b141,goal,Low Map Prevention < 65,BP03
+77,b1138,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1093,obo:cpo_0000053,"line,bar.none",6,b63,0.9,b459,goal,Antibiotic Timing for Cesarean Delivery,ABX01
+78,b1142,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b384,obo:cpo_0000053,"line,bar.none",6,b11,0.93,b208,peers,"Myocardial Infarction, High Risk Patients",CARD03
+80,b1146,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1145,obo:cpo_0000053,"line,bar,none",11,b87,0.9,b141,goal,Low Map Prevention < 65,BP03
+81,b1148,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1149,obo:cpo_0000053,"line,bar,none",1,b47,0.1,b46,goal,Acute Kidney Injury,AKI01
+85,b1152,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1154,obo:cpo_0000053,"line,bar,none",11,b14,0.93,b31,peers,Low MAP Prevention < 55,BP01
+88,b1156,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1157,obo:cpo_0000053,"line,bar.none",6,b87,0.9,b141,goal,Low Map Prevention < 65,BP03
+92,b1165,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b710,obo:cpo_0000053,"line,bar,none",15,b2,0.9,b38,goal,SBP < 90 in Cesarean Deliveries,BP04
+98,b1179,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b329,obo:cpo_0000053,"line,bar,none",4,b87,0.9,b141,goal,Low Map Prevention < 65,BP03
+99,b118,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b119,obo:cpo_0000053,"line,bar,none",11,b8,0.9,b42,goal,Avoiding Monitoring Gaps,BP02
+100,b1181,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1173,obo:cpo_0000053,"line,bar,none",1,b35,0.93,b34,peers,Myocardial Infarction,CARD02
+102,b1184,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1014,obo:cpo_0000053,"line,bar,none",2,b87,0.93,b86,peers,Low Map Prevention < 65,BP03
+103,b1185,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b1187,obo:cpo_0000053,"line,bar,none",5,b308,0.93,b36,peers,Minimizing Colloid Use (Non-Cardiac),FLUID01NC
+111,b1201,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1064,obo:cpo_0000053,"line,bar,none",11,b35,0.93,b34,peers,Myocardial Infarction,CARD02
+129,b1219,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b751,obo:cpo_0000053,"line,bar,none",1,b63,0.9,b459,goal,Antibiotic Timing for Cesarean Delivery,ABX01
+132,b1225,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1025,obo:cpo_0000053,"line,bar,none",1,b35,0.05,b94,goal,Myocardial Infarction,CARD02
+134,b1228,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b1160,obo:cpo_0000053,"line,bar,none",4,b63,0.9,b459,goal,Antibiotic Timing for Cesarean Delivery,ABX01
+136,b1231,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b1086,obo:cpo_0000053,"line,bar,none",15,b35,0.05,b94,goal,Myocardial Infarction,CARD02
+137,b1237,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1239,obo:cpo_0000053,"line,bar,none",2,b8,1.4,b7,peers,Avoiding Monitoring Gaps,BP02
+142,b1244,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b1055,obo:cpo_0000053,"line,bar,none",11,b87,0.93,b86,peers,Low Map Prevention < 65,BP03
+145,b1247,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1073,obo:cpo_0000053,"line,bar,none",14,b87,0.93,b86,peers,Low Map Prevention < 65,BP03
+146,b1249,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1011,obo:cpo_0000053,"line,bar,none",14,b14,0.93,b31,peers,Low MAP Prevention < 55,BP01
+150,b1256,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b1083,obo:cpo_0000053,"line,bar,none",15,b87,0.93,b86,peers,Low Map Prevention < 65,BP03
+151,b126,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b132,obo:cpo_0000053,"line,bar.none",6,b35,0.93,b34,peers,Myocardial Infarction,CARD02
+152,b1260,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1261,obo:cpo_0000053,"line,bar,none",2,b63,0.9,b459,goal,Antibiotic Timing for Cesarean Delivery,ABX01
+155,b1264,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b1022,obo:cpo_0000053,"line,bar,none",15,b14,1.25,b13,goal,Low MAP Prevention < 55,BP01
+158,b1268,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1230,obo:cpo_0000053,"line,bar,none",2,b11,0.93,b208,peers,"Myocardial Infarction, High Risk Patients",CARD03
+161,b1271,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b342,obo:cpo_0000053,"line,bar.none",6,b63,0.93,b62,peers,Antibiotic Timing for Cesarean Delivery,ABX01
+162,b1276,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1023,obo:cpo_0000053,"line,bar,none",14,b47,0.1,b46,goal,Acute Kidney Injury,AKI01
+163,b1277,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b1104,obo:cpo_0000053,"line,bar,none",4,b87,0.93,b86,peers,Low Map Prevention < 65,BP03
+165,b1279,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b475,obo:cpo_0000053,"line,bar,none",1,b87,0.9,b141,goal,Low Map Prevention < 65,BP03
+166,b1281,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b1054,obo:cpo_0000053,"line,bar,none",14,b14,1.25,b13,goal,Low MAP Prevention < 55,BP01
+168,b1283,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1267,obo:cpo_0000053,"line,bar,none",1,b11,0.05,b10,goal,"Myocardial Infarction, High Risk Patients",CARD03
+169,b1284,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b1242,obo:cpo_0000053,"line,bar,none",15,b14,0.93,b31,peers,Low MAP Prevention < 55,BP01
+172,b1288,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b77,obo:cpo_0000053,"line,bar,none",14,b2,1.2,b1,peers,SBP < 90 in Cesarean Deliveries,BP04
+174,b1294,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b1041,obo:cpo_0000053,"line,bar,none",5,b11,0.93,b208,peers,"Myocardial Infarction, High Risk Patients",CARD03
+175,b1295,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b456,obo:cpo_0000053,"line,bar,none",5,b2,0.9,b38,goal,SBP < 90 in Cesarean Deliveries,BP04
+176,b1296,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b1194,obo:cpo_0000053,"line,bar,none",4,b35,0.05,b94,goal,Myocardial Infarction,CARD02
+177,b1297,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b1043,obo:cpo_0000053,"line,bar,none",1,b8,0.9,b42,goal,Avoiding Monitoring Gaps,BP02
+178,b1298,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1196,obo:cpo_0000053,"line,bar.none",6,b47,0.1,b46,goal,Acute Kidney Injury,AKI01
+179,b1299,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1015,obo:cpo_0000053,"line,bar.none",6,b68,0.93,b67,peers,Minimizing Colloid Use (Cardiac),FLUID01C
+180,b1300,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b1009,obo:cpo_0000053,"line,bar,none",2,b68,0.93,b67,peers,Minimizing Colloid Use (Cardiac),FLUID01C
+181,b1301,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b1117,obo:cpo_0000053,"line,bar,none",5,b2,1.2,b1,peers,SBP < 90 in Cesarean Deliveries,BP04
+182,b1302,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b1177,obo:cpo_0000053,"line,bar,none",4,b68,0.93,b67,peers,Minimizing Colloid Use (Cardiac),FLUID01C
+183,b1303,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b1265,obo:cpo_0000053,"line,bar.none",6,b87,0.93,b86,peers,Low Map Prevention < 65,BP03
+184,b1304,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b1224,obo:cpo_0000053,"line,bar,none",15,b47,0.1,b46,goal,Acute Kidney Injury,AKI01
+195,b144,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b146,obo:cpo_0000053,"line,bar.none",6,b14,0.93,b31,peers,Low MAP Prevention < 55,BP01
+198,b153,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b154,obo:cpo_0000053,"line,bar,none",11,b35,0.05,b94,goal,Myocardial Infarction,CARD02
+202,b16,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b18,obo:cpo_0000053,"line,bar,none",4,b11,0.93,b208,peers,"Myocardial Infarction, High Risk Patients",CARD03
+203,b162,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b164,obo:cpo_0000053,"line,bar,none",11,b63,0.93,b62,peers,Antibiotic Timing for Cesarean Delivery,ABX01
+207,b179,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b180,obo:cpo_0000053,"line,bar,none",1,b14,0.93,b31,peers,Low MAP Prevention < 55,BP01
+215,b193,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b197,obo:cpo_0000053,"line,bar,none",14,b11,0.93,b208,peers,"Myocardial Infarction, High Risk Patients",CARD03
+232,b216,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b217,obo:cpo_0000053,"line,bar,none",2,b63,0.93,b62,peers,Antibiotic Timing for Cesarean Delivery,ABX01
+236,b228,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b112,obo:cpo_0000053,"line,bar,none",5,b47,0.1,b46,goal,Acute Kidney Injury,AKI01
+243,b243,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b134,obo:cpo_0000053,"line,bar,none",11,b2,1.2,b1,peers,SBP < 90 in Cesarean Deliveries,BP04
+253,b264,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b267,obo:cpo_0000053,"line,bar,none",15,b63,0.93,b62,peers,Antibiotic Timing for Cesarean Delivery,ABX01
+258,b282,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b261,obo:cpo_0000053,"line,bar,none",5,b87,0.9,b141,goal,Low Map Prevention < 65,BP03
+262,b291,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b293,obo:cpo_0000053,"line,bar.none",6,b8,0.9,b42,goal,Avoiding Monitoring Gaps,BP02
+272,b316,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b317,obo:cpo_0000053,"line,bar,none",5,b87,0.93,b86,peers,Low Map Prevention < 65,BP03
+279,b334,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b337,obo:cpo_0000053,"line,bar,none",11,b8,1.4,b7,peers,Avoiding Monitoring Gaps,BP02
+290,b359,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b360,obo:cpo_0000053,"line,bar,none",4,b47,0.93,b51,peers,Acute Kidney Injury,AKI01
+295,b368,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b369,obo:cpo_0000053,"line,bar,none",4,b47,0.1,b46,goal,Acute Kidney Injury,AKI01
+309,b392,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b393,obo:cpo_0000053,"line,bar,none",15,b63,0.9,b459,goal,Antibiotic Timing for Cesarean Delivery,ABX01
+311,b396,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b399,obo:cpo_0000053,"line,bar,none",11,b308,0.93,b36,peers,Minimizing Colloid Use (Non-Cardiac),FLUID01NC
+317,b406,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b407,obo:cpo_0000053,"line,bar,none",11,b11,0.93,b208,peers,"Myocardial Infarction, High Risk Patients",CARD03
+322,b414,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b415,obo:cpo_0000053,"line,bar,none",4,b14,0.93,b31,peers,Low MAP Prevention < 55,BP01
+326,b421,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b37,obo:cpo_0000053,"line,bar.none",6,b2,0.9,b38,goal,SBP < 90 in Cesarean Deliveries,BP04
+329,b428,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b426,obo:cpo_0000053,"line,bar,none",1,b87,0.93,b86,peers,Low Map Prevention < 65,BP03
+334,b447,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b175,obo:cpo_0000053,"line,bar,none",4,b14,1.25,b13,goal,Low MAP Prevention < 55,BP01
+345,b468,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b469,obo:cpo_0000053,"line,bar,none",14,b63,0.93,b62,peers,Antibiotic Timing for Cesarean Delivery,ABX01
+349,b476,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b383,obo:cpo_0000053,"line,bar,none",2,b8,0.9,b42,goal,Avoiding Monitoring Gaps,BP02
+353,b483,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b61,obo:cpo_0000053,"line,bar,none",1,b63,0.93,b62,peers,Antibiotic Timing for Cesarean Delivery,ABX01
+359,b498,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b500,obo:cpo_0000053,"line,bar,none",4,b308,0.93,b36,peers,Minimizing Colloid Use (Non-Cardiac),FLUID01NC
+364,b506,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b142,obo:cpo_0000053,"line,bar,none",15,b87,0.9,b141,goal,Low Map Prevention < 65,BP03
+370,b516,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b517,obo:cpo_0000053,"line,bar,none",2,b35,0.05,b94,goal,Myocardial Infarction,CARD02
+374,b52,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b43,obo:cpo_0000053,"line,bar,none",14,b8,1.4,b7,peers,Avoiding Monitoring Gaps,BP02
+376,b525,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b526,obo:cpo_0000053,"line,bar,none",4,b63,0.93,b62,peers,Antibiotic Timing for Cesarean Delivery,ABX01
+381,b534,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b511,obo:cpo_0000053,"line,bar,none",1,b14,1.25,b13,goal,Low MAP Prevention < 55,BP01
+388,b550,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b343,obo:cpo_0000053,"line,bar,none",5,b47,0.93,b51,peers,Acute Kidney Injury,AKI01
+392,b558,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b562,obo:cpo_0000053,"line,bar,none",11,b63,0.9,b459,goal,Antibiotic Timing for Cesarean Delivery,ABX01
+396,b568,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b571,obo:cpo_0000053,"line,bar,none",1,b2,1.2,b1,peers,SBP < 90 in Cesarean Deliveries,BP04
+398,b572,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b574,obo:cpo_0000053,"line,bar.none",6,b8,1.4,b7,peers,Avoiding Monitoring Gaps,BP02
+408,b590,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b594,obo:cpo_0000053,"line,bar,none",5,b14,1.25,b13,goal,Low MAP Prevention < 55,BP01
+412,b599,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b513,obo:cpo_0000053,"line,bar,none",2,b14,0.93,b31,peers,Low MAP Prevention < 55,BP01
+422,b614,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b615,obo:cpo_0000053,"line,bar,none",5,b8,1.4,b7,peers,Avoiding Monitoring Gaps,BP02
+428,b629,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b630,obo:cpo_0000053,"line,bar,none",14,b8,0.9,b42,goal,Avoiding Monitoring Gaps,BP02
+446,b659,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b389,obo:cpo_0000053,"line,bar,none",2,b47,0.93,b51,peers,Acute Kidney Injury,AKI01
+450,b664,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b390,obo:cpo_0000053,"line,bar,none",1,b47,0.93,b51,peers,Acute Kidney Injury,AKI01
+456,b672,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b670,obo:cpo_0000053,"line,bar,none",5,b35,0.93,b34,peers,Myocardial Infarction,CARD02
+459,b679,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b681,obo:cpo_0000053,"line,bar,none",5,b63,0.9,b459,goal,Antibiotic Timing for Cesarean Delivery,ABX01
+462,b686,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b687,obo:cpo_0000053,"line,bar,none",1,b11,0.93,b208,peers,"Myocardial Infarction, High Risk Patients",CARD03
+464,b69,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b71,obo:cpo_0000053,"line,bar,none",2,b47,0.1,b46,goal,Acute Kidney Injury,AKI01
+468,b695,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b698,obo:cpo_0000053,"line,bar,none",2,b2,0.9,b38,goal,SBP < 90 in Cesarean Deliveries,BP04
+472,b701,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b655,obo:cpo_0000053,"line,bar,none",14,b47,0.93,b51,peers,Acute Kidney Injury,AKI01
+483,b720,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b201,obo:cpo_0000053,"line,bar,none",5,b35,0.05,b94,goal,Myocardial Infarction,CARD02
+491,b734,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b0,obo:cpo_0000053,"line,bar,none",2,b2,1.2,b1,peers,SBP < 90 in Cesarean Deliveries,BP04
+492,b737,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b252,obo:cpo_0000053,"line,bar,none",2,b11,0.05,b10,goal,"Myocardial Infarction, High Risk Patients",CARD03
+496,b744,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b221,obo:cpo_0000053,"line,bar,none",15,b8,1.4,b7,peers,Avoiding Monitoring Gaps,BP02
+507,b761,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b764,obo:cpo_0000053,"line,bar,none",4,b2,1.2,b1,peers,SBP < 90 in Cesarean Deliveries,BP04
+511,b768,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b278,obo:cpo_0000053,"line,bar,none",14,b68,0.93,b67,peers,Minimizing Colloid Use (Cardiac),FLUID01C
+517,b779,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b307,obo:cpo_0000053,"line,bar,none",14,b308,0.93,b36,peers,Minimizing Colloid Use (Non-Cardiac),FLUID01NC
+528,b800,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b801,obo:cpo_0000053,"line,bar,none",14,b63,0.9,b459,goal,Antibiotic Timing for Cesarean Delivery,ABX01
+530,b804,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b240,obo:cpo_0000053,"line,bar,none",4,b8,0.9,b42,goal,Avoiding Monitoring Gaps,BP02
+534,b810,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b135,obo:cpo_0000053,"line,bar,none",5,b68,0.93,b67,peers,Minimizing Colloid Use (Cardiac),FLUID01C
+538,b819,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b249,obo:cpo_0000053,"line,bar,none",15,b35,0.93,b34,peers,Myocardial Infarction,CARD02
+543,b828,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b652,obo:cpo_0000053,"line,bar,none",5,b11,0.05,b10,goal,"Myocardial Infarction, High Risk Patients",CARD03
+550,b839,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b840,obo:cpo_0000053,"line,bar,none",2,b308,0.93,b36,peers,Minimizing Colloid Use (Non-Cardiac),FLUID01NC
+555,b846,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b775,obo:cpo_0000053,"line,bar,none",4,b2,0.9,b38,goal,SBP < 90 in Cesarean Deliveries,BP04
+558,b854,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b377,obo:cpo_0000053,"line,bar,none",15,b47,0.93,b51,peers,Acute Kidney Injury,AKI01
+562,b860,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b613,obo:cpo_0000053,"line,bar,none",14,b35,0.93,b34,peers,Myocardial Infarction,CARD02
+566,b867,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b717,obo:cpo_0000053,"line,bar,none",15,b8,0.9,b42,goal,Avoiding Monitoring Gaps,BP02
+571,b882,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b884,obo:cpo_0000053,"line,bar,none",15,b11,0.05,b10,goal,"Myocardial Infarction, High Risk Patients",CARD03
+587,b900,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b404,obo:cpo_0000053,"line,bar,none",2,b87,0.9,b141,goal,Low Map Prevention < 65,BP03
+590,b911,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b279,obo:cpo_0000053,"line,bar,none",14,b2,0.9,b38,goal,SBP < 90 in Cesarean Deliveries,BP04
+591,b914,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b916,obo:cpo_0000053,"line,bar.none",6,b11,0.05,b10,goal,"Myocardial Infarction, High Risk Patients",CARD03
+595,b920,_:p1,http://feedbacktailor.org/ftkb#BetterGoalBar,,b49,obo:cpo_0000053,"line,bar,none",4,b11,0.05,b10,goal,"Myocardial Infarction, High Risk Patients",CARD03
+598,b925,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b929,obo:cpo_0000053,"line,bar,none",5,b63,0.93,b62,peers,Antibiotic Timing for Cesarean Delivery,ABX01
+605,b936,_:p1,http://feedbacktailor.org/ftkb#ReachedSocialBar,,b460,obo:cpo_0000053,"line,bar,none",5,b14,0.93,b31,peers,Low MAP Prevention < 55,BP01
+607,b945,_:p1,http://feedbacktailor.org/ftkb#PerformanceWorseningBar,,b522,obo:cpo_0000053,"line,bar,none",15,b68,0.93,b67,peers,Minimizing Colloid Use (Cardiac),FLUID01C
+613,b951,_:p1,http://feedbacktailor.org/ftkb#LostGoalBar,,b24,obo:cpo_0000053,"line,bar,none",14,b11,0.05,b10,goal,"Myocardial Infarction, High Risk Patients",CARD03
+620,b962,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b488,obo:cpo_0000053,"line,bar.none",6,b47,0.93,b51,peers,Acute Kidney Injury,AKI01
+623,b968,_:p1,http://feedbacktailor.org/ftkb#WorseSocialBar,,b932,obo:cpo_0000053,"line,bar,none",2,b14,1.25,b13,goal,Low MAP Prevention < 55,BP01
+630,b983,_:p1,http://feedbacktailor.org/ftkb#ApproachingGoalBar,,b209,obo:cpo_0000053,"line,bar,none",11,b2,0.9,b38,goal,SBP < 90 in Cesarean Deliveries,BP04
+631,b986,_:p1,http://feedbacktailor.org/ftkb#ReachedGoalBar,,b357,obo:cpo_0000053,"line,bar.none",6,b2,1.2,b1,peers,SBP < 90 in Cesarean Deliveries,BP04
+634,b990,_:p1,http://feedbacktailor.org/ftkb#TopPerformerBar,,b542,obo:cpo_0000053,"line,bar,none",1,b68,0.93,b67,peers,Minimizing Colloid Use (Cardiac),FLUID01C
