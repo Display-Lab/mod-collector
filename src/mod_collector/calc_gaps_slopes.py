@@ -21,7 +21,7 @@ def mod_collector(performance_data,comparison_values):
     monotonic_pred_df = monotonic_pred(performance_data,comparison_values)
     mod_df=gap_size.merge(trend_slope,on='Measure_Name').merge(monotonic_pred_df,on='Measure_Name')
     mod_df=mod_df.drop_duplicates()
-    mod_df.to_csv("mod_df.csv")
+    mod_df.to_csv("mod_df.csv",index=False)
     return mod_df
 
     

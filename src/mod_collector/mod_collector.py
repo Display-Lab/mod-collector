@@ -49,7 +49,8 @@ comparator_df = to_dataframe(comparator_graph)
 comparison_values = transform(contenders_graph,measures_graph,comparator_graph)
 comparison_values = comparison_values.rename({'name': 'comparison_type'}, axis=1)
 comparison_values12=comparison_values[["comparison_value","comparison_type","Measure_Name"]]
-comparison_values12.to_csv("comparison_values_1.csv")
+
+comparison_values12.to_csv("comparison_values_1.csv",index=False)
 mod_df=mod_collector(performance_data_df, comparison_values12)
 
 final_df = comparison_values.merge(mod_df, left_on=['Measure_Name','comparison_type'], right_on=['Measure_Name','comparison_type'] ,how='left')
