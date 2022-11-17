@@ -47,10 +47,12 @@ comparator_df = to_dataframe(comparator_graph)
 # print(contenders_graph.serialize(format="ttl"))
 # Transform dataframe to more meaningful dataframe
 comparison_values = transform(contenders_graph,measures_graph,comparator_graph)
-comparison_values12=comparison_values[["comparison_value","name","Measure_Name"]]
+comparison_values = comparison_values.rename({'name': 'comparison_type'}, axis=1)
+comparison_values12=comparison_values[["comparison_value","comparison_type","Measure_Name"]]
+comparison_values12.to_csv("comparison_values_1.csv")
 mod_df=mod_collector(performance_data_df, comparison_values12)
 
-final_df = comparison_values.merge(mod_df, left_on=['Measure_Name','name'], right_on=['Measure_Name','name'] ,how='left')
+final_df = comparison_values.merge(mod_df, left_on=['Measure_Name','comparison_type'], right_on=['Measure_Name','comparison_type'] ,how='left')
 #final_df .to_csv("before_insert.csv")
 # gap_size= gap_calc( performance_data_df, comparison_values12)
 # trend_slope=trend_calc(performance_data_df,comparison_values12)

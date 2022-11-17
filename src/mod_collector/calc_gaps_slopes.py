@@ -21,7 +21,7 @@ def mod_collector(performance_data,comparison_values):
     monotonic_pred_df = monotonic_pred(performance_data,comparison_values)
     mod_df=gap_size.merge(trend_slope,on='Measure_Name').merge(monotonic_pred_df,on='Measure_Name')
     mod_df=mod_df.drop_duplicates()
-    #mod_df.to_csv("mod_df.csv")
+    mod_df.to_csv("mod_df.csv")
     return mod_df
 
     
@@ -31,7 +31,7 @@ def gap_calc( performance_data_df, comparison_values):
     comparison_values_df = comparison_values
     goal_gap_size_df = calc_goal_comparator_gap(comparison_values_df,performance_data_df)
     goal_gap_size_df['gap_size']=goal_gap_size_df['gap_size'].fillna(0)
-    goal_gap_size_df=goal_gap_size_df[["Measure_Name","name","gap_size","performance_data"]]
+    goal_gap_size_df=goal_gap_size_df[["Measure_Name","comparison_type","performance_data","gap_size"]]
     goal_gap_size_df=goal_gap_size_df.drop_duplicates()
     #goal_gap_size_df.to_csv('gap_size.csv')
     return goal_gap_size_df
