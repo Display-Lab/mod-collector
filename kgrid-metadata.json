@@ -1,0 +1,18 @@
+{
+    "@id" : "pfp/moderators/v1.0",
+    "@type" : "koio:KnowledgeObject",
+    "@type" : "psdo:Moderator",
+    "title" : "... moderators",
+    "identifier" : "ark:/python/simple/v1.0",
+    "version" : "v1.0",
+    "description" : "...",
+    "contributors" : "Kgrid Team",
+    "keywords" : [ "Hello", "example" ],
+    "dcterm:citations" : ["",""],
+
+    "hasServiceSpecification" : "README.md##API...",
+    "hasDeploymentSpecification" : "README.md##Running...",
+    "hasPayload" : "src/mod_collector/calc_gaps_slopes.py",
+
+    "@context" : [ "http://kgrid.org/koio/contexts/knowledgeobject.jsonld" ]
+  }

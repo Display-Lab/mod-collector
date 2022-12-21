@@ -21,6 +21,8 @@ The M-DFI KO contains a collection of moderators specific to causal pathways of 
 - Trend slope: *Assess the magnitude of influence of the slope trend of inputs. This is a self comparison of inputs over time.*
 - Monotonicity prediction: *Assess the magnitude of influence of monotonic & non-monotonic trends of the inputs.*
 
+## API
+
 ### Moderator inputs
 
 All moderators in the M-DFI KO function independently of each other. M-DFI requires two inputs:
@@ -34,3 +36,7 @@ All moderators in the M-DFI KO function independently of each other. M-DFI requi
 ### Moderator outputs
 
 The M-DFI KO outputs results from all the included moderators into a single data frame. The output data frame (mod_df) contains the measure name, performance data, comparison type, gap size, trend slope, and monotonicity prediction.
+
+## Running the code
+
+
