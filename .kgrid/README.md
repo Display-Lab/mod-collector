@@ -39,4 +39,14 @@ The M-DFI KO outputs results from all the included moderators into a single data
 
 ## Running the code
 
+### Sample Client
+
+A sample client is included, to test run M-DFI on sample data. The sample client includes the client application, a sample performance data csv and a comparison values csv. The sample performance data csv is *"1_performers_10_measures_test.csv"*. The sample comparison values csv is *"comparison_values_1.csv"*. To run the sample client:
+1. Move the *sample_client* folder to a local directory
+2. If you want to test your own performance data and comparison value csv files, place them in the *sample_client* directory. (otherwise use the sample csv files provided)
+3. Run *client.py*. The client will ask you for the performance data and comparison value file names. It will output the results of the M-DFI functions as a csv file in the *sample_client* directory.
+
+### Using M-DFI in unique programs and apps
+
+If you are developing a program or application that will utilize the M-DFI functions, the functions can be found directly in the file *calc_gaps_slopes.py*. M-DFI can either be called to as a python module, or inserted directly into the source code for the newly developed program or application.
 
