@@ -20,7 +20,6 @@ while comparison_values_file_name == " ":
         comparison_values_file_name = " "
         print("No such file was found")
 
-
 #Call moderator knowledge object
 from calc_gaps_slopes import mod_collector
 
