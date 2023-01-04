@@ -2,16 +2,16 @@
     "@id" : "pfp/moderators/v1.0",
     "@type" : "koio:KnowledgeObject",
     "@type" : "psdo:Moderator",
-    "title" : "... moderators",
+    "title" : "Moderators for Digital Feedback Interventions (M-DFI)",
     "identifier" : "ark:/python/simple/v1.0",
     "version" : "v1.0",
-    "description" : "...",
+    "description" : "A collection of moderator functions specific for digital feedback interventions",
     "contributors" : "Kgrid Team",
-    "keywords" : [ "Hello", "example" ],
+    "keywords" : [ "moderator", "feedback", "gap", "trend", "monotonic prediction"],
     "dcterm:citations" : ["",""],
 
     "hasServiceSpecification" : "README.md##API...",
-    "hasDeploymentSpecification" : "README.md##Running...",
+    "hasDeploymentSpecification" : "README.md##Running_the_code",
     "hasPayload" : "src/mod_collector/calc_gaps_slopes.py",
 
     "@context" : [ "http://kgrid.org/koio/contexts/knowledgeobject.jsonld" ]
