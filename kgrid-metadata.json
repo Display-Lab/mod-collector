@@ -6,9 +6,9 @@
     "identifier" : "ark:/python/simple/v1.0",
     "version" : "v1.0",
     "description" : "A collection of moderator functions specific for digital feedback interventions",
-    "contributors" : "Kgrid Team",
-    "keywords" : [ "moderator", "feedback", "gap", "trend", "monotonic prediction"],
-    "dcterm:citations" : ["",""],
+    "contributors" : "Kgrid Team", "Display Lab"
+    "keywords" : [ "moderator", "feedback", "comparison", "slope", "monotonic prediction", "causal pathway model"],
+    "dcterm:citations" : ["--causal pahway paper--","--cite precision feedback protocol paper--"],
 
     "hasServiceSpecification" : "README.md##API...",
     "hasDeploymentSpecification" : "README.md##Running_the_code",
