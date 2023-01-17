@@ -6,13 +6,25 @@
     "identifier" : "ark:/python/simple/v1.0",
     "version" : "v1.0",
     "description" : "A collection of moderator functions specific for digital feedback interventions",
-    "contributors" : "Kgrid Team", "Display Lab"
-    "keywords" : [ "moderator", "feedback", "comparison", "slope", "monotonic prediction", "causal pathway model"],
-    "dcterm:citations" : ["--causal pahway paper--","--cite precision feedback protocol paper--"],
+    "contributors" : "Kgrid Team", "Display Lab",
+    "keywords" : [
+        "moderator", 
+        "feedback", 
+        "comparison", 
+        "slope", 
+        "monotonic prediction", 
+        "causal pathway model"
+    ],
+    "citations" : [
+        "https://www.frontiersin.org/articles/10.3389/fpubh.2018.00136/full",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9131150/",
+    ],
 
     "hasServiceSpecification" : "README.md##API...",
     "hasDeploymentSpecification" : "README.md##Running_the_code",
     "hasPayload" : "src/mod_collector/calc_gaps_slopes.py",
 
-    "@context" : [ "http://kgrid.org/koio/contexts/knowledgeobject.jsonld" ]
+    "@context" : [ 
+        "http://kgrid.org/koio/contexts/knowledgeobject.jsonld" 
+    ]
   }
